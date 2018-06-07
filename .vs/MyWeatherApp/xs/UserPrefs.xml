@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{359FB32F-DC3E-4A98-80F2-B049B9A71D1F}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/MainPage.xaml">
+    <Files>
+      <File FileName="MyWeatherApp/MainPage.xaml" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.UITests FirstBuild="True" />
+</Properties>
