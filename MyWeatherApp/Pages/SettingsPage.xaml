@@ -1,10 +1,38 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="MyWeatherApp.Pages.SettingsPage">
+    xmlns:res="clr-namespace:MyWeatherApp.Resources"
+    x:Class="MyWeatherApp.Pages.SettingsPage"
+    BindingContext="{Binding Main.Settings, Source={StaticResource Locator}}"
+    Title="Manage cities">
 
-    <ContentPage.Content>
+   <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="40" />
+            </Grid.RowDefinitions>
+            <Label Text="{Binding Test}"/>
 
+            <StackLayout Grid.Row="2"
+                BackgroundColor="{x:Static res:Colors.MainColor}"
+                HeightRequest="95"
+                VerticalOptions="End"
+                HorizontalOptions="FillAndExpand">
+
+                <Label HorizontalOptions="Center"
+                       FontSize="20"
+                       Text="+ Add a city"
+                       TextColor="White"
+                       VerticalOptions="CenterAndExpand">
+                    
+                    <Image.GestureRecognizers>
+                       <TapGestureRecognizer Command="{Binding LoginFacebookCommand}"/>
+                    </Image.GestureRecognizers>
+                </Label>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 
 </ContentPage>
