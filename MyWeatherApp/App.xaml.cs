@@ -1,4 +1,6 @@
 ﻿using System;
+using MyWeatherApp.Pages;
+using MyWeatherApp.Resources;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +13,11 @@ namespace MyWeatherApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+			NavigationPage navigationPage = new NavigationPage(new Pages.HomePage());
+            navigationPage.BarBackgroundColor = Colors.MainColor;
+            navigationPage.BarTextColor = Color.White;
+
+            MainPage = navigationPage;
         }
 
         protected override void OnStart()
