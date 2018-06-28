@@ -1,26 +1,14 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="MyWeatherApp/MainPage.xaml" Line="17" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="3" Column="7" />
+      <File FileName="MyWeatherApp/ViewModels/MainViewModel.cs" Line="14" Column="17" />
+      <File FileName="MyWeatherApp/ViewModels/SettingsViewModel.cs" Line="1" Column="1" />
+      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="1" Column="1" />
+      <File FileName="MyWeatherApp/Classes/Forecast.cs" Line="1" Column="1" />
+      <File FileName="MyWeatherApp.iOS/AppDelegate.cs" Line="27" Column="33" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MyWeatherApp" expanded="True">
-            <Node name="MyWeatherApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="MyWeatherApp.Android" expanded="True">
-              <Node name="Packages" expanded="True" selected="True" />
-            </Node>
-            <Node name="MyWeatherApp.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
