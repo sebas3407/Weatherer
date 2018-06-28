@@ -7,12 +7,15 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="15.3.0.26" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Pages\testPage.xaml.cs" />
+    <Compile Remove="MainPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
+    <Folder Include="Converters\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Pages\HomePage.xaml.cs">
@@ -21,5 +24,8 @@
     <Compile Update="Pages\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage.xaml" />
   </ItemGroup>
 </Project>

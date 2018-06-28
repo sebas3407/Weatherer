@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms" 
+    xmlns:converter="clr-namespace:MyWeatherApp.Converters"
     x:Class="MyWeatherApp.Pages.HomePage"
     BackgroundImage="background.jpg"
     BindingContext="{Binding Main.Home, Source={StaticResource Locator}}"
     Title="Star">
 
+     <ContentPage.Resources>
+      <ResourceDictionary>
+        <converter:DataMarkerConverter x:Key="markerConverter" />
+        <DataTemplate x:Key="LabelTemplate">
+            <StackLayout Orientation="Horizontal" BackgroundColor="Transparent" Padding="5">
+              <Label BackgroundColor = "Transparent"
+                     FontSize="13"
+                     Text="{Binding Converter = {StaticResource markerConverter}}"
+                     TextColor="Green"/>
+            </StackLayout>
+        </DataTemplate>
+     </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <StackLayout>
         <StackLayout Orientation="Horizontal">
             <StackLayout VerticalOptions="FillAndExpand"
@@ -126,5 +142,125 @@
                 HorizontalOptions="CenterAndExpand" />
 
         </Grid>
+
+
+                <StackLayout
+                    BackgroundColor="Transparent"
+                    HeightRequest="300"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,20,0,0"
+                    WidthRequest="300" 
+                    VerticalOptions="Start">
+
+                    <chart:SfChart x:Name="Chart"
+                                  HorizontalOptions="FillAndExpand" 
+                                  VerticalOptions="FillAndExpand">
+                        
+                        <chart:SfChart.ChartBehaviors>
+                            <chart:ChartZoomPanBehavior/>
+                            
+                            <chart:ChartTrackballBehavior ShowLabel="True" ShowLine="True">
+                                
+                                <chart:ChartTrackballBehavior.LineStyle>
+                                 <chart:ChartLineStyle StrokeColor="Blue" StrokeWidth="2"/>
+                                </chart:ChartTrackballBehavior.LineStyle>
+                                
+                            </chart:ChartTrackballBehavior>    
+
+                        </chart:SfChart.ChartBehaviors>
+                        
+                        <chart:SfChart.Legend>
+                          <chart:ChartLegend DockPosition="Bottom" 
+                                             ItemMargin="0,15,30,0"
+                                             Orientation="Horizontal">
+
+                             <chart:ChartLegend.LabelStyle>
+                                <chart:ChartLegendLabelStyle TextColor="White"/>       
+                             </chart:ChartLegend.LabelStyle>
+                           </chart:ChartLegend>
+                        </chart:SfChart.Legend>
+
+                        <chart:SfChart.PrimaryAxis>
+                         <chart:DateTimeAxis x:Name="dateTimeAxis" IntervalType="Days" Interval="1" EdgeLabelsVisibilityMode="Visible">
+                            <chart:DateTimeAxis.LabelStyle>
+                                <chart:ChartAxisLabelStyle TextColor="White" LabelFormat="d"/>
+                            </chart:DateTimeAxis.LabelStyle>
+                          </chart:DateTimeAxis>
+                        </chart:SfChart.PrimaryAxis>
+
+                        <chart:SfChart.SecondaryAxis>
+                          <chart:NumericalAxis  ShowMinorGridLines="false">
+                            <chart:CategoryAxis.LabelStyle>
+                                <chart:ChartAxisLabelStyle TextColor="White"/>
+                            </chart:CategoryAxis.LabelStyle>
+                          </chart:NumericalAxis>
+                        </chart:SfChart.SecondaryAxis>
+
+                        <chart:SfChart.Series>
+
+                          <chart:SplineSeries
+                                EnableAnimation="true"
+                                EnableTooltip="true"
+                                AnimationDuration="1"
+                                Label="Current"
+                                ItemsSource ="{Binding Current}" 
+                                XBindingPath="Days"
+                                YBindingPath="Hours"
+                                SplineType="Clamped"
+                                StrokeWidth="5"
+                                ShowTrackballInfo="true"
+                                Color="Green">
+                                
+                                <chart:SplineSeries.DataMarker>
+                                    <chart:ChartDataMarker ShowLabel="true" >
+                                        <chart:ChartDataMarker.LabelStyle>
+                                            <chart:DataMarkerLabelStyle
+                                                BackgroundColor="Transparent" 
+                                                BorderColor="Transparent"
+                                                TextColor="Green"/>
+                                        </chart:ChartDataMarker.LabelStyle>
+                                    </chart:ChartDataMarker>
+                                </chart:SplineSeries.DataMarker>
+                         </chart:SplineSeries>
+                                    
+                         <chart:LineSeries
+                                EnableAnimation="true"
+                                EnableTooltip="true"
+                                AnimationDuration="4"
+                                Label="Ideal"
+                                ItemsSource ="{Binding Ideal}"
+                                Color="Blue"
+                                XBindingPath="Days"
+                                YBindingPath="Hours"
+                                StrokeWidth="5">
+
+                                <chart:LineSeries.DataMarker>
+                                    <chart:ChartDataMarker ShowLabel="false"/>
+                                </chart:LineSeries.DataMarker>
+                            </chart:LineSeries>
+
+                           <chart:SplineSeries
+                                EnableAnimation="true"
+                                EnableTooltip="true"
+                                AnimationDuration="1"
+                                Label="Trend"
+                                ItemsSource ="{Binding Trend}"
+                                Color="Gray"
+                                Opacity="0.5"
+                                XBindingPath="Days"
+                                YBindingPath="Hours"
+                                SplineType="Clamped"
+                                StrokeWidth="5">
+
+                                <chart:SplineSeries.DataMarker>
+                                    <chart:ChartDataMarker ShowLabel="false"/>
+                                </chart:SplineSeries.DataMarker>
+                          </chart:SplineSeries>
+
+                        </chart:SfChart.Series>
+                   </chart:SfChart>
+                    
+                </StackLayout>
+                
     </StackLayout>
 </ContentPage>

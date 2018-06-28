@@ -66,4 +66,11 @@ namespace MyWeatherApp.Classes
         public string nativeName { get; set; }
         public string numericCode { get; set; }
     }
+
+	public class Temperature
+    {
+        public DateTime Day { get; set; }
+        public double Temp { get; set; }
+        public bool IsLastValue { get; set; }
+    }
 }
