@@ -3,6 +3,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using MyWeatherApp.Classes;
 using MyWeatherApp.ViewModels;
+using System.Collections.Generic;
 
 namespace MyWeatherApp.ViewModels
 {
@@ -88,6 +89,9 @@ namespace MyWeatherApp.ViewModels
 			get { return pressure; }
 			set { SetValue(ref pressure, value); }
 		}
+
+		public List<Temperature> ListMaxTemperatures { get; set; }
+		public List<Temperature> ListMinTemperatures { get; set; }
 		#endregion
 
 		#region Methods
@@ -114,8 +118,23 @@ namespace MyWeatherApp.ViewModels
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 GetCountryName();
+				GetGraphData();
              }
         }
+
+		void GetGraphData()
+		{
+			DateTime currentDate = DateTime.Today.AddDays(-1);
+			for (int i = 0; i < 5;i++)
+			{
+				currentDate = currentDate.AddDays(1);
+				Temperature minTempAux = new Temperature(currentDate, Math.Round(forecast.list[i].temp.min),false);
+				Temperature maxTempAux = new Temperature(currentDate, Math.Round(forecast.list[i].temp.max), false);
+                
+				ListMinTemperatures.Add(minTempAux);
+                ListMaxTemperatures.Add(maxTempAux);
+			}   
+		}
 
         void GetUserInfo()
         {
@@ -155,6 +174,8 @@ namespace MyWeatherApp.ViewModels
 		#region Constructor
 		public HomeViewModel()
 		{
+			ListMinTemperatures = new List<Temperature>();
+			ListMaxTemperatures = new List<Temperature>();
 
             GetTemperature();
             /*   CHANGE HOUR EVERY MINUTE

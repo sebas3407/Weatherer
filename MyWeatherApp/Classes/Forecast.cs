@@ -72,5 +72,12 @@ namespace MyWeatherApp.Classes
         public DateTime Day { get; set; }
         public double Temp { get; set; }
         public bool IsLastValue { get; set; }
+
+		public Temperature(DateTime day, double temp, bool isLastValue)
+		{
+			Day = day;
+			Temp = temp;
+			IsLastValue = isLastValue;
+		}
     }
 }
