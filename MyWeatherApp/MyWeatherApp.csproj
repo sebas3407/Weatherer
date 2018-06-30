@@ -13,10 +13,12 @@
   <ItemGroup>
     <Compile Remove="Pages\testPage.xaml.cs" />
     <Compile Remove="MainPage.xaml.cs" />
+    <Compile Remove="Popups\AddCity.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />
     <Folder Include="Converters\" />
+    <Folder Include="Popups\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Pages\HomePage.xaml.cs">
