@@ -30,7 +30,7 @@
         
         <Button BackgroundColor="{x:Static res:Colors.MainColor}"
                 Margin="0,10,0,0"
-                Text="Check"
+                Text="Add"
                 TextColor="Black"/>
     </StackLayout>
 </pages:PopupPage>
