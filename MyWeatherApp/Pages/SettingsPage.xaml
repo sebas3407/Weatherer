@@ -27,9 +27,9 @@
                        TextColor="White"
                        VerticalOptions="CenterAndExpand">
                     
-                    <Image.GestureRecognizers>
-                       <TapGestureRecognizer Command="{Binding LoginFacebookCommand}"/>
-                    </Image.GestureRecognizers>
+                    <Label.GestureRecognizers>
+                       <TapGestureRecognizer Command="{Binding NewCityPopupCommand}"/>
+                    </Label.GestureRecognizers>
                 </Label>
             </StackLayout>
         </Grid>
