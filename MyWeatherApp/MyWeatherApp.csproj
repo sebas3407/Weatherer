@@ -20,6 +20,7 @@
     <Folder Include="Pages\" />
     <Folder Include="Converters\" />
     <Folder Include="Popups\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Pages\HomePage.xaml.cs">

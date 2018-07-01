@@ -2,8 +2,8 @@
 using System.Net.Http;
 using Newtonsoft.Json;
 using MyWeatherApp.Classes;
-using MyWeatherApp.ViewModels;
 using System.Collections.Generic;
+using MyWeatherApp.Services;
 
 namespace MyWeatherApp.ViewModels
 {
@@ -12,6 +12,7 @@ namespace MyWeatherApp.ViewModels
 		#region Properties
 		private Forecast forecast;
 		private Country country;
+		private ApiService apiService = new ApiService();
 
 		private String currentTime;
 		public String CurrentTime
@@ -97,14 +98,10 @@ namespace MyWeatherApp.ViewModels
 		#region Methods
 		public async void GetTemperature() 
         {
-            var Client = new HttpClient();
-            Client.BaseAddress = new Uri("http://api.openweathermap.org");
-            var url = "/data/2.5/forecast/daily?id=6356055&cnt=5&units=metric&appid=50d4d8b59f8c1a0a41360976992f86f1";
-            var response = await Client.GetAsync(url);
-            if(response.IsSuccessStatusCode)
+			var url = "/data/2.5/forecast/daily?id=6356055&cnt=5&units=metric&appid=50d4d8b59f8c1a0a41360976992f86f1";
+			forecast= await apiService.GetForecast(url);
+			if(apiService.SuccessConnection)
             {
-                var results = await response.Content.ReadAsStringAsync();
-                forecast = JsonConvert.DeserializeObject<Forecast>(results);
                 Temperature = Math.Round(forecast.list[0].temp.day);
                 Description = forecast.list[0].weather[0].main;
                 City = forecast.city.name.ToUpper();
@@ -176,7 +173,6 @@ namespace MyWeatherApp.ViewModels
 		{
 			ListMinTemperatures = new List<Temperature>();
 			ListMaxTemperatures = new List<Temperature>();
-
             GetTemperature();
             /*   CHANGE HOUR EVERY MINUTE
              * 
