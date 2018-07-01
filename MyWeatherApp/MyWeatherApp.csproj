@@ -9,6 +9,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="15.3.0.26" />
     <PackageReference Include="Rg.Plugins.Popup" Version="1.0.4" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Pages\testPage.xaml.cs" />
