@@ -99,7 +99,7 @@ namespace MyWeatherApp.ViewModels
 		public async void GetTemperature() 
         {
 			var url = "/data/2.5/forecast/daily?id=6356055&cnt=5&units=metric&appid=50d4d8b59f8c1a0a41360976992f86f1";
-			forecast= await apiService.GetForecast(url);
+			forecast = await apiService.GetForecast(url);
 			if(apiService.SuccessConnection)
             {
                 Temperature = Math.Round(forecast.list[0].temp.day);

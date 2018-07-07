@@ -1,26 +1,12 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/HomeViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Popups/AddCityPopup.xaml">
     <Files>
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="103" Column="10" />
-      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="9" Column="40" />
+      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="31" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/AddCityViewModel.cs" Line="37" Column="20" />
       <File FileName="MyWeatherApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MyWeatherApp/Popups/AddCityPopup.xaml" Line="26" Column="28" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="MyWeatherApp" expanded="True">
-            <Node name="MyWeatherApp" expanded="True">
-              <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="HomeViewModel.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="MyWeatherApp.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

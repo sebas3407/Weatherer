@@ -12,6 +12,7 @@ namespace MyWeatherApp.ViewModels
 		public RelayCommand NewCityPopupCommand { get; set; }
 		async void NewCityPopup()
         {
+			MainViewModel.GetInstance().AddCity = new AddCityViewModel();
 			await Application.Current.MainPage.Navigation.PushPopupAsync(new AddCityPopup());
         }
 

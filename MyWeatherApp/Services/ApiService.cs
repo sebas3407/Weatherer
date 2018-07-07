@@ -22,9 +22,12 @@ namespace MyWeatherApp.Services
 				var results = await response.Content.ReadAsStringAsync();
 				forecast = JsonConvert.DeserializeObject<Forecast>(results);
 				SuccessConnection = true;
+				return forecast;
 			}
-
-			return forecast;
+			else
+			{
+				return null;
+			}
 		}
 	}
 }
