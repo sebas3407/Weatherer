@@ -93,7 +93,6 @@
                 HorizontalOptions="CenterAndExpand" 
                 Margin="0,10,0,0"/>
 
-
             <Label Text="{Binding Wind}"
                 FontSize="15"
                 TextColor="#EC4C47"
@@ -101,7 +100,6 @@
                 Grid.Column="2"
                 HorizontalOptions="CenterAndExpand"
                 Margin="0,10,0,0"/>
-
 
             <Label Text="{Binding Clouds}"
                 FontSize="15"
@@ -142,7 +140,6 @@
                 HorizontalOptions="CenterAndExpand" />
 
         </Grid>
-
 
                 <StackLayout
                     BackgroundColor="Transparent"
@@ -203,9 +200,9 @@
                                 EnableTooltip="true"
                                 AnimationDuration="1"
                                 Label="Current"
-                                ItemsSource ="{Binding Current}" 
-                                XBindingPath="Days"
-                                YBindingPath="Hours"
+                                ItemsSource ="{Binding ListMaxTemperatures}" 
+                                XBindingPath="Day"
+                                YBindingPath="Temp"
                                 SplineType="Clamped"
                                 StrokeWidth="5"
                                 ShowTrackballInfo="true"
@@ -222,33 +219,17 @@
                                     </chart:ChartDataMarker>
                                 </chart:SplineSeries.DataMarker>
                          </chart:SplineSeries>
-                                    
-                         <chart:LineSeries
-                                EnableAnimation="true"
-                                EnableTooltip="true"
-                                AnimationDuration="4"
-                                Label="Ideal"
-                                ItemsSource ="{Binding Ideal}"
-                                Color="Blue"
-                                XBindingPath="Days"
-                                YBindingPath="Hours"
-                                StrokeWidth="5">
-
-                                <chart:LineSeries.DataMarker>
-                                    <chart:ChartDataMarker ShowLabel="false"/>
-                                </chart:LineSeries.DataMarker>
-                            </chart:LineSeries>
 
                            <chart:SplineSeries
                                 EnableAnimation="true"
                                 EnableTooltip="true"
                                 AnimationDuration="1"
                                 Label="Trend"
-                                ItemsSource ="{Binding Trend}"
+                                ItemsSource ="{Binding ListMinTemperatures}"
                                 Color="Gray"
                                 Opacity="0.5"
-                                XBindingPath="Days"
-                                YBindingPath="Hours"
+                                XBindingPath="Day"
+                                YBindingPath="Temp"
                                 SplineType="Clamped"
                                 StrokeWidth="5">
 
@@ -256,11 +237,8 @@
                                     <chart:ChartDataMarker ShowLabel="false"/>
                                 </chart:SplineSeries.DataMarker>
                           </chart:SplineSeries>
-
                         </chart:SfChart.Series>
                    </chart:SfChart>
-                    
                 </StackLayout>
-                
     </StackLayout>
 </ContentPage>

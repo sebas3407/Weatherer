@@ -7,7 +7,6 @@
     x:Class="MyWeatherApp.Popups.AddCityPopup"
     BindingContext="{Binding Main.AddCity, Source={StaticResource Locator}}">
     <!--You can set an animation in the xaml file or in the csharp code behind-->
-    <!--You can use any elements here which are extended from Xamarin.Forms.View-->
 
     <StackLayout 
         BackgroundColor="White"
