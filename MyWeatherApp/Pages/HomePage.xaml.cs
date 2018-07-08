@@ -10,7 +10,7 @@ namespace MyWeatherApp.Pages
         public HomePage()
         {
             InitializeComponent();
-			ToolbarItems.Add(new ToolbarItem("Settings", "settings.png", async () =>
+			ToolbarItems.Add(new ToolbarItem("Cities", "cities.png", async () =>
             {
                 MainViewModel.GetInstance().Settings = new SettingsViewModel();
                 await Navigation.PushAsync(new SettingsPage(), true);
