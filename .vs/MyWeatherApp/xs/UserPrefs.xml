@@ -1,29 +1,21 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/SettingsPage.xaml">
     <Files>
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml.cs" Line="13" Column="44" />
+      <File FileName="MyWeatherApp/Pages/SettingsPage.xaml" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MyWeatherApp" expanded="True">
             <Node name="MyWeatherApp" expanded="True">
-              <Node name="Classes" expanded="True" />
-              <Node name="Converters" expanded="True" />
+              <Node name="Dependencies" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="HomePage.xaml" expanded="True" />
-                <Node name="SettingsPage.xaml" expanded="True" />
+                <Node name="ManageCitiesPage.xaml" expanded="True" />
+                <Node name="SettingsPage.xaml" expanded="True" selected="True" />
               </Node>
-              <Node name="Resources" expanded="True" />
-              <Node name="Services" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="App.xaml" expanded="True" />
-            </Node>
-            <Node name="MyWeatherApp.iOS" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="settings.png" selected="True" />
-              </Node>
             </Node>
           </Node>
         </State>

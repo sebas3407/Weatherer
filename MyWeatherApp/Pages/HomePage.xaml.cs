@@ -12,8 +12,8 @@ namespace MyWeatherApp.Pages
             InitializeComponent();
 			ToolbarItems.Add(new ToolbarItem("Cities", "cities.png", async () =>
             {
-                MainViewModel.GetInstance().Settings = new SettingsViewModel();
-                await Navigation.PushAsync(new SettingsPage(), true);
+				MainViewModel.GetInstance().ManageCity = new ManageCitiesViewModel();
+				await Navigation.PushAsync(new ManageCitiesPage(), true);
             }));
         }
     }

@@ -12,6 +12,7 @@ namespace MyWeatherApp.ViewModels
 		public HomeViewModel Home { get; set; }
 		public SettingsViewModel Settings { get; set; }
 		public AddCityViewModel AddCity { get; set; }
+		public ManageCitiesViewModel ManageCity { get; set; }
 
 		#region Singleton
         private static MainViewModel instance;
