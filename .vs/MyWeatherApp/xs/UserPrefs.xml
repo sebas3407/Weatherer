@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
   <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/SettingsPage.xaml">
     <Files>
-      <File FileName="MyWeatherApp/Pages/SettingsPage.xaml" Line="10" Column="1" />
+      <File FileName="MyWeatherApp/Pages/SettingsPage.xaml" Line="12" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,6 @@
                 <Node name="ManageCitiesPage.xaml" expanded="True" />
                 <Node name="SettingsPage.xaml" expanded="True" selected="True" />
               </Node>
-              <Node name="ViewModels" expanded="True" />
             </Node>
           </Node>
         </State>
