@@ -105,6 +105,18 @@
     <AndroidResource Include="Resources\drawable-xhdpi\background.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\background.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\background.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\cities.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\settings.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

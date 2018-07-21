@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{359FB32F-DC3E-4A98-80F2-B049B9A71D1F}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/HomeViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Source Not Available">
     <Files>
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="146" Column="1" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="27" Column="47" />
       <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="157" Column="1" />
+      <File FileName="Source Not Available" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,12 +13,13 @@
             <Node name="MyWeatherApp" expanded="True">
               <Node name="Pages" expanded="True" />
               <Node name="Services" expanded="True" />
-              <Node name="ViewModels" expanded="True">
-                <Node name="HomeViewModel.cs" selected="True" />
-              </Node>
+              <Node name="ViewModels" expanded="True" />
             </Node>
-            <Node name="MyWeatherApp.Android" expanded="True">
-              <Node name="Resources" expanded="True" />
+            <Node name="MyWeatherApp.Android" expanded="True" selected="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable-ldpi" expanded="True" />
+                <Node name="drawable-mdpi" expanded="True" />
+              </Node>
             </Node>
             <Node name="MyWeatherApp.iOS" expanded="True">
               <Node name="Resources" expanded="True" />
