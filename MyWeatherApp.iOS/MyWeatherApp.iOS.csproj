@@ -175,12 +175,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\background.jpg" />
     <BundleResource Include="Resources\settings.png" />
     <BundleResource Include="Resources\settings%402x.png" />
     <BundleResource Include="Resources\settings%403x.png" />
     <BundleResource Include="Resources\cities.png" />
     <BundleResource Include="Resources\cities%402x.png" />
     <BundleResource Include="Resources\cities%403x.png" />
+    <BundleResource Include="Resources\background.png" />
   </ItemGroup>
 </Project>

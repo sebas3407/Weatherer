@@ -5,7 +5,7 @@
     xmlns:converter="clr-namespace:MyWeatherApp.Converters"
     xmlns:res="clr-namespace:MyWeatherApp.Resources"
     x:Class="MyWeatherApp.Pages.HomePage"
-    BackgroundImage="background.jpg"
+    BackgroundImage="background.png"
     BindingContext="{Binding Main.Home, Source={StaticResource Locator}}"
     Title="Star">
 
@@ -143,14 +143,14 @@
         </Grid>
 
                 <StackLayout
-                    BackgroundColor="Transparent"
                     HeightRequest="300"
                     HorizontalOptions="FillAndExpand"
-                    Margin="0,20,0,0"
+                    Margin="10,20,0,0"
                     WidthRequest="300" 
                     VerticalOptions="Start">
 
                     <chart:SfChart x:Name="Chart"
+                                  BackgroundColor="Transparent"
                                   HorizontalOptions="FillAndExpand" 
                                   VerticalOptions="FillAndExpand">
                         
@@ -164,7 +164,6 @@
                                 </chart:ChartTrackballBehavior.LineStyle>
                                 
                             </chart:ChartTrackballBehavior>    
-
                         </chart:SfChart.ChartBehaviors>
                         
                         <chart:SfChart.Legend>
