@@ -14,13 +14,6 @@ namespace MyWeatherApp.ViewModels
 		private Country country;
 		private ApiService apiService = new ApiService();
 
-		private String currentTime;
-		public String CurrentTime
-		{
-			get { return currentTime; }
-			set { SetValue(ref currentTime, value); }
-		}
-
 		private String city;
 		public String City
 		{
@@ -93,14 +86,16 @@ namespace MyWeatherApp.ViewModels
 
 		public List<Temperature> ListMaxTemperatures { get; set; }
 		public List<Temperature> ListMinTemperatures { get; set; }
-		#endregion
+		public string apiKey = "50d4d8b59f8c1a0a41360976992f86f1";
+        public string units = "metric";
+        #endregion
 
-		#region Methods
-		public async void GetTemperature() 
+        #region Methods
+        public async void GetTemperature()
         {
-			var url = "/data/2.5/forecast/daily?id=6356055&cnt=5&units=metric&appid=50d4d8b59f8c1a0a41360976992f86f1";
-			forecast = await apiService.GetForecast(url);
-			if(apiService.SuccessConnection)
+			var url = "/data/2.5/forecast/daily?lat=41.6109&lon=0.6419&cnt=5&units=" + units + "&appid=" + apiKey;
+            forecast = await apiService.GetForecast(url);
+            if (apiService.SuccessConnection)
             {
                 Temperature = Math.Round(forecast.list[0].temp.day);
                 Description = forecast.list[0].weather[0].main;
@@ -132,22 +127,7 @@ namespace MyWeatherApp.ViewModels
                 ListMaxTemperatures.Add(maxTempAux);
 			}   
 		}
-
-        void GetUserInfo()
-        {
-            if (DateTime.Now.Hour > 11)
-            {
-                currentTime = (DateTime.Now.Hour - 12) + ":" + DateTime.Now.Minute + " PM";
-            }
-
-            else
-            {
-                currentTime = DateTime.Now.Hour + ":" + DateTime.Now.Minute + " AM";
-            }
-
-            CurrentDate = DateTime.Now.Date.ToLongDateString();
-        }
-
+              
         async void GetCountryName()
         {
             //https://restcountries.eu/rest/v2/alpha/col
@@ -168,26 +148,13 @@ namespace MyWeatherApp.ViewModels
         }
         #endregion
 
-		#region Constructor
+		#region ConstructorGetUserInfo
 		public HomeViewModel()
 		{
 			ListMinTemperatures = new List<Temperature>();
 			ListMaxTemperatures = new List<Temperature>();
             GetTemperature();
-            /*   CHANGE HOUR EVERY MINUTE
-             * 
-             * 
-             * 
-             * 
-             *
-             */
-
-            /*
-             * 
-             * IMPROVE DATE SYSTEM
-             */
-
-            GetUserInfo();
+			CurrentDate = DateTime.Now.Date.ToLongDateString();
 		}
         #endregion
 	}

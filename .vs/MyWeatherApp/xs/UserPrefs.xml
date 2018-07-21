@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/ManageCitiesViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Services/ApiService.cs">
     <Files>
       <File FileName="MyWeatherApp/Pages/SettingsPage.xaml" Line="13" Column="1" />
-      <File FileName="MyWeatherApp/ViewModels/ManageCitiesViewModel.cs" Line="33" Column="61" />
       <File FileName="MyWeatherApp.iOS/Info.plist" />
       <File FileName="MyWeatherApp/Pages/HomePage.xaml.cs" Line="9" Column="6" />
-      <File FileName="MyWeatherApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="119" Column="1" />
+      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="31" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/plunge/Documents/Projects/myweatherapp/MyWeatherApp/ViewModels/ManageCitiesViewModel.cs" relfile="MyWeatherApp/ViewModels/ManageCitiesViewModel.cs" line="28" column="1" />
+      <Breakpoint file="/Users/plunge/Documents/Projects/myweatherapp/MyWeatherApp/ViewModels/HomeViewModel.cs" relfile="MyWeatherApp/ViewModels/HomeViewModel.cs" line="102" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
