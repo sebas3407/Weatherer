@@ -10,9 +10,6 @@ namespace MyWeatherApp.ViewModels
 	public class HomeViewModel: BaseViewModel
 	{
 		#region Properties
-		private Forecast forecast;
-		private Country country;
-		private ApiService apiService = new ApiService();
 
 		private String city;
 		public String City
@@ -98,6 +95,9 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref longitude, value); }
         }
 
+		private Forecast forecast;
+        private Country country;
+        private ApiService apiService = new ApiService();
 		public List<Temperature> ListMaxTemperatures { get; set; }
 		public List<Temperature> ListMinTemperatures { get; set; }
 		public string apiKey = "50d4d8b59f8c1a0a41360976992f86f1";
@@ -160,15 +160,6 @@ namespace MyWeatherApp.ViewModels
                 country = JsonConvert.DeserializeObject<Country>(results);
                 CountryName = country.name.ToUpper();
             }
-            else
-            {
-                //Display message error
-            }
-        }
-
-		public async void GetCurrentLocation()
-        {
-            
         }
         #endregion
 
@@ -177,7 +168,6 @@ namespace MyWeatherApp.ViewModels
 		{
 			ListMinTemperatures = new List<Temperature>();
 			ListMaxTemperatures = new List<Temperature>();
-			GetCurrentLocation();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
 		}
