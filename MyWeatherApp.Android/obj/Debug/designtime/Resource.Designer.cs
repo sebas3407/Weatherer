@@ -55,6 +55,12 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0
 			public static int background = 0;
 			
+			// aapt resource value: 0
+			public static int cities = 0;
+			
+			// aapt resource value: 0
+			public static int settings = 0;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

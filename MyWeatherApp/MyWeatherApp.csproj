@@ -17,6 +17,7 @@
     <Compile Remove="Pages\testPage.xaml.cs" />
     <Compile Remove="MainPage.xaml.cs" />
     <Compile Remove="Popups\AddCity.xaml.cs" />
+    <Compile Remove="Response\Response.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\" />

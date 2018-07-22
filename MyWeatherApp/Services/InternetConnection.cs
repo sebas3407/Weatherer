@@ -4,7 +4,7 @@ using Plugin.Connectivity;
 
 namespace MyWeatherApp.Services
 {
-    public class InternetConnection
+	public class InternetConnection
     {
 		public async Task<Response> CheckConnection()
         {

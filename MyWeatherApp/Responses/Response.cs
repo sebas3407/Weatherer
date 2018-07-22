@@ -3,7 +3,7 @@ using MyWeatherApp.ViewModels;
 
 namespace MyWeatherApp.Responses
 {
-    public class Response : BaseViewModel
+	public class Response : BaseViewModel
     {
         private bool isSuccess;
         public bool IsSuccess
