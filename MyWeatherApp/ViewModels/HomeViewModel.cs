@@ -84,16 +84,35 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref pressure, value); }
 		}
 
+		private double latitude;
+		public double Latitude
+        {
+			get { return latitude; }
+			set { SetValue(ref latitude, value); }
+        }
+
+		private double longitude;
+		public double Longitude
+        {
+			get { return longitude; }
+			set { SetValue(ref longitude, value); }
+        }
+
 		public List<Temperature> ListMaxTemperatures { get; set; }
 		public List<Temperature> ListMinTemperatures { get; set; }
 		public string apiKey = "50d4d8b59f8c1a0a41360976992f86f1";
         public string units = "metric";
+		LocalizationService MyLocalization = new LocalizationService();
         #endregion
 
         #region Methods
         public async void GetTemperature()
         {
-			var url = "/data/2.5/forecast/daily?lat=41.6109&lon=0.6419&cnt=5&units=" + units + "&appid=" + apiKey;
+			await MyLocalization.GetCurrentLocation();
+            Latitude = MyLocalization.latitude;
+            Longitude = MyLocalization.longitude;
+
+            var url = "/data/2.5/forecast/daily?lat="+Latitude+"&lon="+Longitude+"&cnt=5&units=" + units + "&appid=" + apiKey;
             forecast = await apiService.GetForecast(url);
             if (apiService.SuccessConnection)
             {
@@ -146,6 +165,11 @@ namespace MyWeatherApp.ViewModels
                 //Display message error
             }
         }
+
+		public async void GetCurrentLocation()
+        {
+            
+        }
         #endregion
 
 		#region ConstructorGetUserInfo
@@ -153,6 +177,7 @@ namespace MyWeatherApp.ViewModels
 		{
 			ListMinTemperatures = new List<Temperature>();
 			ListMaxTemperatures = new List<Temperature>();
+			GetCurrentLocation();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
 		}

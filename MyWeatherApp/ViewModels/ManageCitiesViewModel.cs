@@ -1,7 +1,6 @@
-﻿using System;
-using GalaSoft.MvvmLight.Command;
+﻿using GalaSoft.MvvmLight.Command;
 using MyWeatherApp.Popups;
-using Plugin.Geolocator;
+using MyWeatherApp.Services;
 using Rg.Plugins.Popup.Extensions;
 using Xamarin.Forms;
 
@@ -12,6 +11,7 @@ namespace MyWeatherApp.ViewModels
 		#region Properties
 		double latitude;
 		double longitude;
+		LocalizationService MyLocalization = new LocalizationService();
 		#endregion
 
 		#region Methods
@@ -19,17 +19,14 @@ namespace MyWeatherApp.ViewModels
 		async void NewCityPopup()
 		{
 			MainViewModel.GetInstance().AddCity = new AddCityViewModel();
-			GetCurrentLocation();
 			await Application.Current.MainPage.Navigation.PushPopupAsync(new AddCityPopup());
 		}
 
 		public async void GetCurrentLocation()
 		{
-			var locator = CrossGeolocator.Current;
-			var position = await locator.GetPositionAsync(TimeSpan.FromSeconds(10));
-
-			latitude = position.Latitude;
-			longitude = position.Longitude;
+			await MyLocalization.GetCurrentLocation();
+            latitude = MyLocalization.latitude;
+            longitude = MyLocalization.longitude;
 		}
 		#endregion
 
