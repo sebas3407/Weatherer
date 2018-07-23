@@ -1,19 +1,18 @@
 ﻿<Properties StartupConfiguration="{359FB32F-DC3E-4A98-80F2-B049B9A71D1F}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp.Android/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Services/InternetConnection.cs">
     <Files>
       <File FileName="MyWeatherApp.Android/MainActivity.cs" Line="24" Column="1" />
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="183" Column="1" />
-      <File FileName="Source Not Available" />
-      <File FileName="MyWeatherApp/ViewModels/MainViewModel.cs" Line="35" Column="1" />
-      <File FileName="MyWeatherApp/Infrastructure/InstanceLocator.cs" Line="15" Column="1" />
-      <File FileName="MyWeatherApp/App.xaml.cs" Line="21" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="114" Column="61" />
+      <File FileName="MyWeatherApp/Services/InternetConnection.cs" Line="9" Column="31" />
+      <File FileName="MyWeatherApp/Services/LocalizationService.cs" Line="17" Column="31" />
+      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="36" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/plunge/Documents/Projects/myweatherapp/MyWeatherApp/ViewModels/HomeViewModel.cs" relfile="MyWeatherApp/ViewModels/HomeViewModel.cs" line="114" column="45" />
+      <Breakpoint file="/Users/plunge/Documents/Projects/myweatherapp/MyWeatherApp/Services/ApiService.cs" relfile="MyWeatherApp/Services/ApiService.cs" line="35" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

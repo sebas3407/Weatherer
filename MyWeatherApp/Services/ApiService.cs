@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using MyWeatherApp.Classes;
 using Newtonsoft.Json;
+using Xamarin.Forms;
 
 namespace MyWeatherApp.Services
 {
@@ -10,21 +11,37 @@ namespace MyWeatherApp.Services
     {
 		private Forecast forecast;
 		public bool SuccessConnection = false;
+		InternetConnection internetConnection = new InternetConnection();
+        
 
 		public async Task<Forecast> GetForecast(string url)
 		{
-			var Client = new HttpClient();
-            Client.BaseAddress = new Uri("http://api.openweathermap.org");
-            var response = await Client.GetAsync(url);
+			var connection = await internetConnection.CheckConnection();
+            if (!connection.IsSuccess)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", connection.Message, "Accept");
+                return null;
+            }
 
-			if (response.IsSuccessStatusCode)
+			try
 			{
-				var results = await response.Content.ReadAsStringAsync();
-				forecast = JsonConvert.DeserializeObject<Forecast>(results);
-				SuccessConnection = true;
-				return forecast;
+				var Client = new HttpClient();
+                Client.BaseAddress = new Uri("http://api.openweathermap.org");
+                var response = await Client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var results = await response.Content.ReadAsStringAsync();
+                    forecast = JsonConvert.DeserializeObject<Forecast>(results);
+                    SuccessConnection = true;
+                    return forecast;
+                }
+                else
+                {
+                    return null;
+                }
 			}
-			else
+			catch (Exception ex)
 			{
 				return null;
 			}

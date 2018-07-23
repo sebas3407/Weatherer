@@ -25,7 +25,7 @@ namespace MyWeatherApp.Services
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "Check you internet connection.",
+                    Message = "Please, check your internet connection.",
                 };
             }
 

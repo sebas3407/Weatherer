@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Threading.Tasks;
 using Plugin.Geolocator;
 using Plugin.Geolocator.Abstractions;
+using Xamarin.Forms;
 
 namespace MyWeatherApp.Services
 {
@@ -28,7 +29,7 @@ namespace MyWeatherApp.Services
                     longitude = position.Longitude;
                 }
             }
-            catch (Exception le)
+            catch (Exception e)
             {
                 position = new Position() { Latitude = 0, Longitude = 0 };
             }

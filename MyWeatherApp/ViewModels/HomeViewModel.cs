@@ -111,13 +111,6 @@ namespace MyWeatherApp.ViewModels
         #region Methods
         public async void GetTemperature()
         {
-			var connection = await internetConnection.CheckConnection();
-            if (!connection.IsSuccess)
-            {
-                await Application.Current.MainPage.DisplayAlert("Error", connection.Message, "Accept");
-                return;
-            }
-
 			await MyLocalization.GetCurrentLocation();
             Latitude = MyLocalization.latitude;
             Longitude = MyLocalization.longitude;
