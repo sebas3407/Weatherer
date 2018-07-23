@@ -4,6 +4,8 @@ using Newtonsoft.Json;
 using MyWeatherApp.Classes;
 using System.Collections.Generic;
 using MyWeatherApp.Services;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace MyWeatherApp.ViewModels
 {
@@ -103,11 +105,19 @@ namespace MyWeatherApp.ViewModels
 		public string apiKey = "50d4d8b59f8c1a0a41360976992f86f1";
         public string units = "metric";
 		LocalizationService MyLocalization = new LocalizationService();
+		InternetConnection internetConnection = new InternetConnection();
         #endregion
 
         #region Methods
         public async void GetTemperature()
         {
+			var connection = await internetConnection.CheckConnection();
+            if (!connection.IsSuccess)
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", connection.Message, "Accept");
+                return;
+            }
+
 			await MyLocalization.GetCurrentLocation();
             Latitude = MyLocalization.latitude;
             Longitude = MyLocalization.longitude;
