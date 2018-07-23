@@ -10,6 +10,8 @@
     <style name="MainTheme.Base"
         parent="Theme.AppCompat.Light.DarkActionBar">
 
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor">#ff6e66</item>
         <!--If you are using revision 22.1 please use just windowNoTitle. Without android:-->
         <item name="windowNoTitle">
 true</item>
