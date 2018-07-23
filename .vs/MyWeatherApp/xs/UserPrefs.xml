@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
-  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Services/InternetConnection.cs">
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5510ACA7-6E7B-495B-AC3C-39B8B4FF072C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml">
     <Files>
-      <File FileName="MyWeatherApp/Services/InternetConnection.cs" Line="9" Column="26" />
+      <File FileName="MyWeatherApp/Services/InternetConnection.cs" Line="40" Column="1" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="74" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
