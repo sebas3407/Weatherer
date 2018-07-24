@@ -134,7 +134,8 @@ namespace MyWeatherApp.ViewModels
                 GetCountryName();
 				GetGraphData();
              }
-        }
+
+			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }         }
 
 		void GetGraphData()
 		{
