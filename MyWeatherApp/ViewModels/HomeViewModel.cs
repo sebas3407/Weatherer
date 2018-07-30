@@ -97,6 +97,13 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref longitude, value); }
         }
 
+		private string fontStyle;
+        public string FontStyle
+        {
+			get { return fontStyle; }
+			set { SetValue(ref fontStyle, value); }
+        }
+
 		private Forecast forecast;
         private Country country;
         private ApiService apiService = new ApiService();
@@ -174,6 +181,7 @@ namespace MyWeatherApp.ViewModels
 			ListMaxTemperatures = new List<Temperature>();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
+			FontStyle = "None";
 		}
         #endregion
 	}

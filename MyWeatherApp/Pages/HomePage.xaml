@@ -33,7 +33,7 @@
 
                 <Label Text="{Binding City}"
                     FontSize="17"
-                    TextColor="{x:Static res:Colors.TextColor}" />
+                    TextColor="{x:Static res:Colors.TextColor}"/>
 
                 <Label Text="{Binding CountryName}"
                     FontSize="15"
@@ -135,7 +135,6 @@
                 HorizontalOptions="CenterAndExpand" />
 
             <Label Text="Clouds"
-                FontSize="15"
                 TextColor="{x:Static res:Colors.TextColor}"
                 Grid.Row="1"
                 Grid.Column="3"
