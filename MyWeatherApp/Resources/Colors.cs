@@ -1,5 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace MyWeatherApp.Resources
 {
@@ -7,6 +6,6 @@ namespace MyWeatherApp.Resources
     {
 		public static readonly Color MainColor = Color.FromHex("ff6e66");
 		public static readonly Color MainTextColor = Color.FromHex("EC4C47");
+		public static readonly Color TextColor = Color.White;
     }
 }
-    
