@@ -59,6 +59,9 @@ namespace MyWeatherApp.Droid
 			public static int cities = 0;
 			
 			// aapt resource value: 0
+			public static int icon = 0;
+			
+			// aapt resource value: 0
 			public static int settings = 0;
 			
 			static Drawable()

@@ -102,12 +102,12 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
-    <AndroidResource Include="Resources\drawable-hdpi\background.png" />
-    <AndroidResource Include="Resources\drawable-ldpi\background.png" />
-    <AndroidResource Include="Resources\drawable-mdpi\background.png" />
-    <AndroidResource Include="Resources\drawable-xhdpi\background.png" />
-    <AndroidResource Include="Resources\drawable-xxhdpi\background.png" />
-    <AndroidResource Include="Resources\drawable-xxxhdpi\background.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\background3.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\background3.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\background3.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\background3.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\background3.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\background3.png" />
     <AndroidResource Include="Resources\drawable-hdpi\cities.png" />
     <AndroidResource Include="Resources\drawable-hdpi\settings.png" />
     <AndroidResource Include="Resources\drawable-ldpi\cities.png" />
@@ -120,6 +120,12 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\settings.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\cities.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
