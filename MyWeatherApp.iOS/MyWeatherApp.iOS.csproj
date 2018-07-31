@@ -164,5 +164,7 @@
     <BundleResource Include="Resources\cities%402x.png" />
     <BundleResource Include="Resources\cities%403x.png" />
     <BundleResource Include="Resources\background.png" />
+    <BundleResource Include="Resources\background2.png" />
+    <BundleResource Include="Resources\background3.png" />
   </ItemGroup>
 </Project>

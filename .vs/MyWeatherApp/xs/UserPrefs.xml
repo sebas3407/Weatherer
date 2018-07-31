@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="192" Column="2" />
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="138" Column="32" />
-      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="9" Column="55" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="247" Column="15" />
+      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="8" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

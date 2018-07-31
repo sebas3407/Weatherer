@@ -5,7 +5,7 @@
     xmlns:converter="clr-namespace:MyWeatherApp.Converters"
     xmlns:res="clr-namespace:MyWeatherApp.Resources"
     x:Class="MyWeatherApp.Pages.HomePage"
-    BackgroundImage="background.png"
+    BackgroundImage="background3.png"
     BindingContext="{Binding Main.Home, Source={StaticResource Locator}}"
     Title="Star">
 
@@ -83,6 +83,7 @@
 
             <Label Text="{Binding Humidity}"
                 FontSize="15"
+                FontAttributes="Bold"
                 TextColor="{x:Static res:Colors.MainTextColor}"
                 Grid.Row="0"
                 Grid.Column="0"
@@ -91,6 +92,7 @@
 
             <Label Text="{Binding Pressure}"
                 FontSize="15"
+                FontAttributes="Bold"
                 TextColor="{x:Static res:Colors.MainTextColor}"
                 Grid.Row="0"
                 Grid.Column="1"
@@ -99,6 +101,7 @@
 
             <Label Text="{Binding Wind}"
                 FontSize="15"
+                FontAttributes="Bold"
                 TextColor="{x:Static res:Colors.MainTextColor}"
                 Grid.Row="0"
                 Grid.Column="2"
@@ -107,6 +110,7 @@
 
             <Label Text="{Binding Clouds}"
                 FontSize="15"
+                FontAttributes="Bold"
                 TextColor="{x:Static res:Colors.MainTextColor}"
                 Grid.Row="0"
                 Grid.Column="3"
