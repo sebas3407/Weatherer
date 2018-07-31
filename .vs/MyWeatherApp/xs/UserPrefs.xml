@@ -1,9 +1,11 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
-  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp.Android/Properties/AndroidManifest.xml">
     <Files>
       <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="247" Column="15" />
-      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="8" Column="54" />
+      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="13" Column="75" />
+      <File FileName="MyWeatherApp.iOS/Info.plist" />
+      <File FileName="MyWeatherApp.Android/Properties/AndroidManifest.xml" Line="8" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

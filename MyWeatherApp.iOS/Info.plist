@@ -27,13 +27,11 @@
 	<key>CFBundleDisplayName</key>
 	<string>MyWeatherApp</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.sebastianOrtiz.MyWeatherApp</string>
+	<string>com.sebastianOrtiz.Weatherer</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
-	<key>CFBundleName</key>
-	<string>MyWeatherApp</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleDocumentTypes</key>
@@ -43,5 +41,9 @@
 			<string>CFBundleTypeName</string>
 		</dict>
 	</array>
+	<key>CFBundleName</key>
+	<string>Weatherer</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 </dict>
 </plist>
