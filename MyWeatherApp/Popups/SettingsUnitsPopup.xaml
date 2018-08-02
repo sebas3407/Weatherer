@@ -35,27 +35,33 @@
                    Grid.Column="0" 
                    Text="ºC"/> 
             
-            <Switch Grid.Row="1" 
+            <Switch x:Name="CentigradesSwitch"
+                    Grid.Row="1" 
                     Grid.Column="1" 
                     IsToggled="{Binding IsCentigrades}" 
+                    Toggled="Handle_Toggled"
                     HorizontalOptions="End"/>
 
             <Label Grid.Row="2" 
                    Grid.Column="0" 
                    Text="ºF"/>
 
-            <Switch Grid.Row="2" 
+            <Switch x:Name="FahrenheitSwitch"
+                    Grid.Row="2" 
                     Grid.Column="1" 
-                    IsToggled="{Binding IsFahrenheit}" 
+                    IsToggled="{Binding IsFahrenheit}"
+                    Toggled="Handle_Toggled"
                     HorizontalOptions="End"/>
 
             <Label Grid.Row="3" 
                    Grid.Column="0" 
                    Text="K"/>
 
-            <Switch Grid.Row="3" 
+            <Switch x:Name="KelvinSwitch"
+                    Grid.Row="3" 
                     Grid.Column="1" 
-                    IsToggled="{Binding IsKelvin}" 
+                    IsToggled="{Binding IsKelvin}"
+                    Toggled="Handle_Toggled"
                     HorizontalOptions="End"/>
 
             <Button Command="{Binding ClosePopupCommand}"
