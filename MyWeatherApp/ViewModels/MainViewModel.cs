@@ -9,13 +9,16 @@ namespace MyWeatherApp.ViewModels
 {
     public class MainViewModel : BaseViewModel
     {
+        #region ViewModels      
 		public HomeViewModel Home { get; set; }
 		public SettingsViewModel Settings { get; set; }
 		public AddCityViewModel AddCity { get; set; }
 		public ManageCitiesViewModel ManageCity { get; set; }
+		public SettingsUnitsViewModel SettingsUnits { get; set; }
+        #endregion
 
 		#region Singleton
-        private static MainViewModel instance;
+		private static MainViewModel instance;
 
         public static MainViewModel GetInstance()
         {

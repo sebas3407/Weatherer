@@ -1,4 +1,6 @@
-﻿using MyWeatherApp.ViewModels;
+﻿using MyWeatherApp.Popups;
+using MyWeatherApp.ViewModels;
+using Rg.Plugins.Popup.Extensions;
 using Xamarin.Forms;
 
 namespace MyWeatherApp.Pages
@@ -10,8 +12,8 @@ namespace MyWeatherApp.Pages
             InitializeComponent();
 			ToolbarItems.Add(new ToolbarItem("Settings", "settings.png", async () =>
             {
-                MainViewModel.GetInstance().Settings = new SettingsViewModel();
-                await Navigation.PushAsync(new SettingsPage(), true);
+				MainViewModel.GetInstance().SettingsUnits = new SettingsUnitsViewModel();
+				await Application.Current.MainPage.Navigation.PushPopupAsync(new SettingsUnitsPopup());
             }));
         }
     }

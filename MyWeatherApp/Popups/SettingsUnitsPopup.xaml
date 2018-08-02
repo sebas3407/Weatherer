@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage  xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="MyWeatherApp.Popups.SettingsUnitsPopup"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:res="clr-namespace:MyWeatherApp.Resources"
+    BindingContext="{Binding Main.SettingsUnits, Source={StaticResource Locator}}">
+
+    <StackLayout BackgroundColor="White" 
+                 VerticalOptions="End"
+                 HorizontalOptions="Center"
+                 Margin="10,20">
+        
+        <Grid Padding="20">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label HorizontalOptions="Center" 
+                   Grid.Row="0" 
+                   Grid.ColumnSpan="2" 
+                   Text="Temperature Units" />
+
+            <Label Grid.Row="1" 
+                   Grid.Column="0" 
+                   Text="ºC"/> 
+            
+            <Switch Grid.Row="1" 
+                    Grid.Column="1" 
+                    IsToggled="{Binding IsCentigrades}" 
+                    HorizontalOptions="End"/>
+
+            <Label Grid.Row="2" 
+                   Grid.Column="0" 
+                   Text="ºF"/>
+
+            <Switch Grid.Row="2" 
+                    Grid.Column="1" 
+                    IsToggled="{Binding IsFahrenheit}" 
+                    HorizontalOptions="End"/>
+
+            <Label Grid.Row="3" 
+                   Grid.Column="0" 
+                   Text="K"/>
+
+            <Switch Grid.Row="3" 
+                    Grid.Column="1" 
+                    IsToggled="{Binding IsKelvin}" 
+                    HorizontalOptions="End"/>
+
+            <Button Command="{Binding ClosePopupCommand}"
+                    BackgroundColor="{x:Static res:Colors.MainColor}"
+                    Grid.Row="4" 
+                    Grid.ColumnSpan="2"
+                    Margin="10,0" 
+                    Text="Cancel" 
+                    TextColor="White"
+                    HorizontalOptions="FillAndExpand" />
+        </Grid>
+    </StackLayout>
+</pages:PopupPage>

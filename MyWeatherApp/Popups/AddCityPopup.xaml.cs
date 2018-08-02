@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using Rg.Plugins.Popup.Extensions;
-using Xamarin.Forms;
+﻿using Rg.Plugins.Popup.Extensions;
+using Rg.Plugins.Popup.Pages;
 
 namespace MyWeatherApp.Popups
 {
-	public partial class AddCityPopup : Rg.Plugins.Popup.Pages.PopupPage
+	public partial class AddCityPopup : PopupPage
     {
 		public AddCityPopup()
         {

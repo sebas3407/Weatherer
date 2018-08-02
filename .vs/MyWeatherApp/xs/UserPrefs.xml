@@ -1,18 +1,15 @@
-﻿<Properties StartupConfiguration="{359FB32F-DC3E-4A98-80F2-B049B9A71D1F}|Default">
+﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.BF5E92C8-FB98-433B-9CBB-1E420FDBE8EA" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Popups/SettingsUnitsPopup.xaml">
     <Files>
-      <File FileName="MyWeatherApp.Android/MainActivity.cs" Line="7" Column="30" />
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="163" Column="1" />
-      <File FileName="MyWeatherApp/Services/LocalizationService.cs" Line="23" Column="1" />
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="196" Column="49" />
+      <File FileName="MyWeatherApp/Resources/Colors.cs" Line="12" Column="65" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="65" Column="36" />
+      <File FileName="MyWeatherApp/Popups/SettingsUnitsPopup.xaml" Line="71" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/plunge/Documents/Projects/myweatherapp/MyWeatherApp/ViewModels/HomeViewModel.cs" relfile="MyWeatherApp/ViewModels/HomeViewModel.cs" line="163" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
