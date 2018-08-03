@@ -165,5 +165,8 @@
     <BundleResource Include="Resources\background.png" />
     <BundleResource Include="Resources\background2.png" />
     <BundleResource Include="Resources\background3.png" />
+    <BundleResource Include="Resources\gps_active.png" />
+    <BundleResource Include="Resources\gps_active%402x.png" />
+    <BundleResource Include="Resources\gps_active%403x.png" />
   </ItemGroup>
 </Project>
