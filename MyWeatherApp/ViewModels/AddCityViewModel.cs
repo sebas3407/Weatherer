@@ -1,5 +1,7 @@
-﻿using GalaSoft.MvvmLight.Command;
+﻿using System.Collections.Generic;
+using GalaSoft.MvvmLight.Command;
 using MyWeatherApp.Classes;
+using MyWeatherApp.Models;
 using MyWeatherApp.Services;
 
 namespace MyWeatherApp.ViewModels
@@ -22,6 +24,8 @@ namespace MyWeatherApp.ViewModels
 			get { return isVisible; }
 			set { SetValue(ref isVisible, value); }
 		}
+        
+		List<LocalCity> CitiesList = new List<LocalCity>();
 		#endregion
 
 		#region Comands
@@ -33,13 +37,23 @@ namespace MyWeatherApp.ViewModels
 			Forecast cityForecast;
 			cityForecast = await apiService.GetForecast(url);
 
-			if (cityForecast == null)
+			if (cityForecast != null)
 			{
-				IsVisible = true;
+				IsVisible = false;
+
+				LocalCity NewCity = new LocalCity { 
+					name = cityForecast.city.name, 
+					latitude = cityForecast.city.coord.lat, 
+					longitude = cityForecast.city.coord.lon };
+
+				if(!CitiesList.Contains(NewCity))
+				{
+					CitiesList.Add(NewCity);
+				}
 			}
 			else
 			{
-				IsVisible = false;
+				IsVisible = true;
 			}
 		}
 		#endregion

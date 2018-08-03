@@ -24,6 +24,7 @@
     <Folder Include="Converters\" />
     <Folder Include="Popups\" />
     <Folder Include="Services\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Pages\HomePage.xaml.cs">
