@@ -15,10 +15,12 @@ namespace MyWeatherApp.Pages
 				MainViewModel.GetInstance().SettingsUnits = new SettingsUnitsViewModel();
 				await Application.Current.MainPage.Navigation.PushPopupAsync(new SettingsUnitsPopup());
             }));
-
-			ToolbarItems.Add(new ToolbarItem("Use GPS","gps_active.png", async () =>
-            {
-            }));
         }
-    }
+
+		async void Handle_Toggled(object sender, ToggledEventArgs e)
+		{
+			MainViewModel.GetInstance().Home.UseGPS = true;
+			await Application.Current.MainPage.Navigation.PopAsync();
+		}
+	}
 }

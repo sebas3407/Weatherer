@@ -15,7 +15,7 @@ namespace MyWeatherApp
 
 			NavigationPage navigationPage = new NavigationPage(new Pages.HomePage());
             navigationPage.BarBackgroundColor = Colors.MainColor;
-            navigationPage.BarTextColor = Color.White;
+			navigationPage.BarTextColor = Color.White;
 
             MainPage = navigationPage;
         }

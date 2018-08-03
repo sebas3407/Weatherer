@@ -11,7 +11,15 @@ namespace MyWeatherApp.ViewModels
 		#region Properties
 		double latitude;
 		double longitude;
+
+		private bool useGPS;
+		public bool UseGPS
+        {
+			get { return useGPS; }
+			set { SetValue(ref useGPS, value); }
+        }
 		LocalizationService MyLocalization = new LocalizationService();
+
 		#endregion
 
 		#region Methods
@@ -25,8 +33,8 @@ namespace MyWeatherApp.ViewModels
 		public async void GetCurrentLocation()
 		{
 			await MyLocalization.GetCurrentLocation();
-            latitude = MyLocalization.latitude;
-            longitude = MyLocalization.longitude;
+			latitude = MyLocalization.latitude;
+			longitude = MyLocalization.longitude;
 		}
 		#endregion
 

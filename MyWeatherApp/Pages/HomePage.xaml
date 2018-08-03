@@ -209,7 +209,7 @@
                                 SplineType="Clamped"
                                 StrokeWidth="5"
                                 ShowTrackballInfo="true"
-                                Color="Green">
+                                Color="Red">
                                 
                                 <chart:SplineSeries.DataMarker>
                                     <chart:ChartDataMarker ShowLabel="true" >
@@ -229,7 +229,7 @@
                                 AnimationDuration="1"
                                 Label="MIN"
                                 ItemsSource ="{Binding ListMinTemperatures}"
-                                Color="Gray"
+                                Color="Navy"
                                 Opacity="0.5"
                                 XBindingPath="Day"
                                 YBindingPath="Temp"

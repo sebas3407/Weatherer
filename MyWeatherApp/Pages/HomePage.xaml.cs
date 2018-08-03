@@ -16,5 +16,11 @@ namespace MyWeatherApp.Pages
 				await Navigation.PushAsync(new ManageCitiesPage(), true);
             }));
         }
-    }
+
+		protected override void OnAppearing()
+		{
+			MainViewModel.GetInstance().Home.GetTemperature();
+			base.OnAppearing();
+		}
+	}
 }

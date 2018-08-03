@@ -4,7 +4,6 @@ using Newtonsoft.Json;
 using MyWeatherApp.Classes;
 using System.Collections.Generic;
 using MyWeatherApp.Services;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MyWeatherApp.ViewModels
@@ -104,6 +103,13 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref fontStyle, value); }
         }
 
+		private bool useGPS;
+		public bool UseGPS
+        {
+			get { return useGPS; }
+			set { SetValue(ref useGPS, value); }
+        }
+
 		private Forecast forecast;
         private Country country;
         private ApiService apiService = new ApiService();
@@ -122,7 +128,13 @@ namespace MyWeatherApp.ViewModels
             Latitude = MyLocalization.latitude;
             Longitude = MyLocalization.longitude;
 
-            var url = "/data/2.5/forecast/daily?lat="+Latitude+"&lon="+Longitude+"&cnt=5&units=" + units + "&appid=" + apiKey;
+			if(!useGPS)
+			{
+				Latitude = 40.416775;
+                Longitude = -3.703790;
+			}
+
+			var url = "/data/2.5/forecast/daily?lat="+Latitude+"&lon="+Longitude+"&cnt=5&units=" + units + "&appid=" + apiKey;
             forecast = await apiService.GetForecast(url);
             if (apiService.SuccessConnection)
             {
