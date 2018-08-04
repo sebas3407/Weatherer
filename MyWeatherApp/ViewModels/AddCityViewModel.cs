@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using GalaSoft.MvvmLight.Command;
 using MyWeatherApp.Classes;
 using MyWeatherApp.Models;
@@ -25,7 +27,7 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref isVisible, value); }
 		}
         
-		List<LocalCity> CitiesList = new List<LocalCity>();
+		ObservableCollection<LocalCity> CitiesList = new ObservableCollection<LocalCity>();
 		#endregion
 
 		#region Comands
@@ -41,12 +43,16 @@ namespace MyWeatherApp.ViewModels
 			{
 				IsVisible = false;
 
-				LocalCity NewCity = new LocalCity { 
-					name = cityForecast.city.name, 
+				LocalCity NewCity = new LocalCity
+				{
+					name = cityForecast.city.name,
+					countryName = cityForecast.city.country,
 					latitude = cityForecast.city.coord.lat, 
 					longitude = cityForecast.city.coord.lon };
-
-				if(!CitiesList.Contains(NewCity))
+                
+				if  (!CitiesList.Any(
+					i => i.name == NewCity.name && 
+					i.countryName == NewCity.countryName))
 				{
 					CitiesList.Add(NewCity);
 				}
