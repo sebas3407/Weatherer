@@ -33,7 +33,6 @@ namespace MyWeatherApp.ViewModels
 		public RelayCommand ClosePopupCommand { get; set; }
         async void ClosePopup()
         {
-            MainViewModel.GetInstance().AddCity = new AddCityViewModel();
 			await Application.Current.MainPage.Navigation.PopPopupAsync();
         }
         #endregion

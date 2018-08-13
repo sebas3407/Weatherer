@@ -5,7 +5,7 @@
     xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
     xmlns:res="clr-namespace:MyWeatherApp.Resources"
     x:Class="MyWeatherApp.Popups.AddCityPopup"
-    BindingContext="{Binding Main.AddCity, Source={StaticResource Locator}}">
+    BindingContext="{Binding Main.ManageCity, Source={StaticResource Locator}}">
     <!--You can set an animation in the xaml file or in the csharp code behind-->
 
     <StackLayout 

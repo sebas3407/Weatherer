@@ -12,7 +12,6 @@ namespace MyWeatherApp.ViewModels
         #region ViewModels      
 		public HomeViewModel Home { get; set; }
 		public SettingsViewModel Settings { get; set; }
-		public AddCityViewModel AddCity { get; set; }
 		public ManageCitiesViewModel ManageCity { get; set; }
 		public SettingsUnitsViewModel SettingsUnits { get; set; }
         #endregion
