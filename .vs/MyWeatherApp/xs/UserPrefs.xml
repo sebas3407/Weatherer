@@ -1,13 +1,10 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A71EEC04-70FF-424E-8439-884CD349BF80" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/HomeViewModel.cs">
     <Files>
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="276" Column="9" />
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="156" Column="28" />
-      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="10" Column="18" />
-      <File FileName="MyWeatherApp/Classes/Forecast.cs" Line="88" Column="24" />
+      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="55" Column="71" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="171" Column="1" />
       <File FileName="MyWeatherApp.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -16,7 +13,6 @@
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/Pages/ManageCitiesPage.xaml.cs" relfile="MyWeatherApp/Pages/ManageCitiesPage.xaml.cs" line="27" column="1" />
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/ViewModels/AddCityViewModel.cs" relfile="MyWeatherApp/ViewModels/AddCityViewModel.cs" line="58" column="1" />
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/Pages/HomePage.xaml" relfile="MyWeatherApp/Pages/HomePage.xaml" line="148" column="1" />
-      <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/ViewModels/HomeViewModel.cs" relfile="MyWeatherApp/ViewModels/HomeViewModel.cs" line="166" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

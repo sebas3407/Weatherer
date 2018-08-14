@@ -10,9 +10,9 @@ namespace MyWeatherApp.Services
     public class ApiService
     {
 		private Forecast forecast;
+        private Country country;
 		public bool SuccessConnection = false;
 		InternetConnection internetConnection = new InternetConnection();
-        
 
 		public async Task<Forecast> GetForecast(string url)
 		{
@@ -46,5 +46,31 @@ namespace MyWeatherApp.Services
 				return null;
 			}
 		}
+
+        public async Task<Country> GetCountryName(string url)
+        {
+            try
+            {
+                var Client = new HttpClient();
+                Client.BaseAddress = new Uri("https://restcountries.eu");
+                var response = await Client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var results = await response.Content.ReadAsStringAsync();
+                    country = JsonConvert.DeserializeObject<Country>(results);
+                    SuccessConnection = true;
+                    return country;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
 	}
 }

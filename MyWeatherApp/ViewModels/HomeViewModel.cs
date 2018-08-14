@@ -153,7 +153,7 @@ namespace MyWeatherApp.ViewModels
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 GetCountryName();
-                AddForecast();
+         //       AddForecast();
              }
 
 			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }
@@ -165,6 +165,10 @@ namespace MyWeatherApp.ViewModels
             for (int i = 1; i < 5; i++)
             {
                 string day = "today";
+                //if(forecast.list[i].weather[i].main == "")
+                //{
+                    
+                //} 
                 string icon = "settings.png";
                 string temp = forecast.list[i].temp.max.ToString() + " / " + forecast.list[0].temp.min;
                 LocalForecast.Add(new LocalForecast
@@ -192,17 +196,9 @@ namespace MyWeatherApp.ViewModels
               
         async void GetCountryName()
         {
-            //https://restcountries.eu/rest/v2/alpha/col
-            var Client = new HttpClient();
-            Client.BaseAddress = new Uri("https://restcountries.eu");
             string url = "/rest/v2/alpha/"+CountryCode;
-            var response = await Client.GetAsync(url);
-            if (response.IsSuccessStatusCode)
-            {
-                var results = await response.Content.ReadAsStringAsync();
-                country = JsonConvert.DeserializeObject<Country>(results);
-                CountryName = country.name.ToUpper();
-            }
+            country = await apiService.GetCountryName(url);
+            CountryName = country.name.ToUpper();
         }
         #endregion
 
