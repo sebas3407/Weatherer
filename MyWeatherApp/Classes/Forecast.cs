@@ -80,4 +80,11 @@ namespace MyWeatherApp.Classes
 			IsLastValue = isLastValue;
 		}
     }
+
+    public class LocalForecast
+    {
+        public string Day { get; set; }
+        public string Icon { get; set; }
+        public string Temp { get; set; }
+    }
 }

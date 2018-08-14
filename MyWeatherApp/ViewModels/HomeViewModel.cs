@@ -5,6 +5,7 @@ using MyWeatherApp.Classes;
 using System.Collections.Generic;
 using MyWeatherApp.Services;
 using Xamarin.Forms;
+using System.Collections.ObjectModel;
 
 namespace MyWeatherApp.ViewModels
 {
@@ -118,6 +119,8 @@ namespace MyWeatherApp.ViewModels
         public string units = "metric";
 		LocalizationService MyLocalization = new LocalizationService();
 		InternetConnection internetConnection = new InternetConnection();
+
+        public ObservableCollection<LocalForecast> LocalForecast = new ObservableCollection<LocalForecast>();
         #endregion
 
         #region Methods
@@ -150,9 +153,28 @@ namespace MyWeatherApp.ViewModels
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 GetCountryName();
+                AddForecast();
              }
 
-			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }         }
+			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }
+        }
+
+        void AddForecast()
+        {
+            
+            for (int i = 1; i < 5; i++)
+            {
+                string day = "today";
+                string icon = "settings.png";
+                string temp = forecast.list[i].temp.max.ToString() + " / " + forecast.list[0].temp.min;
+                LocalForecast.Add(new LocalForecast
+                {
+                    Day = day,
+                    Icon = icon,
+                    Temp = temp
+                });
+            }
+        }
 
 		void GetGraphData()
 		{

@@ -19,7 +19,6 @@ namespace MyWeatherApp.Pages
 
 		protected override void OnAppearing()
 		{
-			MainViewModel.GetInstance().Home.GetTemperature();
 			base.OnAppearing();
 		}
 	}
