@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A71EEC04-70FF-424E-8439-884CD349BF80" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/SettingsUnitsViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Classes/Forecast.cs">
     <Files>
-      <File FileName="MyWeatherApp/ViewModels/ManageCitiesViewModel.cs" Line="83" Column="1" />
-      <File FileName="MyWeatherApp/Pages/ManageCitiesPage.xaml.cs" Line="16" Column="30" />
-      <File FileName="MyWeatherApp/Popups/AddCityPopup.xaml" Line="37" Column="19" />
-      <File FileName="MyWeatherApp/ViewModels/MainViewModel.cs" Line="15" Column="1" />
-      <File FileName="MyWeatherApp/ViewModels/SettingsUnitsViewModel.cs" Line="36" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/ManageCitiesViewModel.cs" Line="71" Column="1" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="276" Column="9" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="137" Column="21" />
+      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="10" Column="18" />
+      <File FileName="MyWeatherApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MyWeatherApp/Classes/Forecast.cs" Line="61" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -14,6 +15,7 @@
     <BreakpointStore>
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/Pages/ManageCitiesPage.xaml.cs" relfile="MyWeatherApp/Pages/ManageCitiesPage.xaml.cs" line="27" column="1" />
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/ViewModels/AddCityViewModel.cs" relfile="MyWeatherApp/ViewModels/AddCityViewModel.cs" line="58" column="1" />
+      <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/Pages/HomePage.xaml" relfile="MyWeatherApp/Pages/HomePage.xaml" line="148" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

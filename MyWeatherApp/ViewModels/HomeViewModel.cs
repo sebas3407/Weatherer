@@ -113,8 +113,7 @@ namespace MyWeatherApp.ViewModels
 		private Forecast forecast;
         private Country country;
         private ApiService apiService = new ApiService();
-		public List<Temperature> ListMaxTemperatures { get; set; }
-		public List<Temperature> ListMinTemperatures { get; set; }
+
 		public string apiKey = "50d4d8b59f8c1a0a41360976992f86f1";
         public string units = "metric";
 		LocalizationService MyLocalization = new LocalizationService();
@@ -151,7 +150,6 @@ namespace MyWeatherApp.ViewModels
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 GetCountryName();
-				GetGraphData();
              }
 
 			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }         }
@@ -165,8 +163,8 @@ namespace MyWeatherApp.ViewModels
 				Temperature minTempAux = new Temperature(currentDate, Math.Round(forecast.list[i].temp.min),false);
 				Temperature maxTempAux = new Temperature(currentDate, Math.Round(forecast.list[i].temp.max), false);
                 
-				ListMinTemperatures.Add(minTempAux);
-                ListMaxTemperatures.Add(maxTempAux);
+				//ListMinTemperatures.Add(minTempAux);
+                //ListMaxTemperatures.Add(maxTempAux);
 			}   
 		}
               
@@ -189,8 +187,6 @@ namespace MyWeatherApp.ViewModels
 		#region ConstructorGetUserInfo
 		public HomeViewModel()
 		{
-			ListMinTemperatures = new List<Temperature>();
-			ListMaxTemperatures = new List<Temperature>();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
 			FontStyle = "None";
