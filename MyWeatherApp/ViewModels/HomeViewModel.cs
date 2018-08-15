@@ -120,8 +120,13 @@ namespace MyWeatherApp.ViewModels
 		LocalizationService MyLocalization = new LocalizationService();
 		InternetConnection internetConnection = new InternetConnection();
 
-        public ObservableCollection<LocalForecast> LocalForecast = new ObservableCollection<LocalForecast>();
-        #endregion
+        private ObservableCollection<LocalForecast> localForecast;
+        public ObservableCollection<LocalForecast> LocalForecasts
+        {
+            get { return localForecast; }
+            set { SetValue(ref localForecast, value); }
+        }
+#endregion
 
         #region Methods
         public async void GetTemperature()
@@ -153,7 +158,7 @@ namespace MyWeatherApp.ViewModels
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 GetCountryName();
-         //       AddForecast();
+                AddForecast();
              }
 
 			if (Latitude == 0 && Longitude == 0)             {                 await Application.Current.MainPage.DisplayAlert("Error", "Can't access to GPS", "Accept");             }
@@ -171,7 +176,7 @@ namespace MyWeatherApp.ViewModels
                 //} 
                 string icon = "settings.png";
                 string temp = forecast.list[i].temp.max.ToString() + " / " + forecast.list[0].temp.min;
-                LocalForecast.Add(new LocalForecast
+                LocalForecasts.Add(new LocalForecast
                 {
                     Day = day,
                     Icon = icon,
@@ -205,6 +210,7 @@ namespace MyWeatherApp.ViewModels
 		#region ConstructorGetUserInfo
 		public HomeViewModel()
 		{
+            LocalForecasts = new ObservableCollection<LocalForecast>();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
 			FontStyle = "None";
