@@ -166,15 +166,39 @@ namespace MyWeatherApp.ViewModels
 
         void AddForecast()
         {
-            
+            LocalForecasts = new ObservableCollection<LocalForecast>();
+
             for (int i = 1; i < 5; i++)
             {
-                string day = "today";
-                //if(forecast.list[i].weather[i].main == "")
-                //{
+                string day = DateTime.Today.AddDays(i).ToString("ddd, MMM dd");
+                string icon = "";
+
+                if(forecast.list[i].weather[0].main == "Clear")
+                {
                     
-                //} 
-                string icon = "settings.png";
+                }
+                else if(forecast.list[i].weather[0].main == "Thunderstorm")
+                {
+                    
+                }
+                else if (forecast.list[i].weather[0].main == "Drizzle")
+                {
+
+                }
+                else if (forecast.list[i].weather[0].main == "Rain")
+                {
+
+                }
+                else if (forecast.list[i].weather[0].main == "Snow")
+                {
+
+                }
+                else if (forecast.list[i].weather[0].main == "Clouds")
+                {
+                    
+                }
+
+                icon = "settings.png";
                 string temp = forecast.list[i].temp.max.ToString() + " / " + forecast.list[0].temp.min;
                 LocalForecasts.Add(new LocalForecast
                 {
@@ -210,7 +234,6 @@ namespace MyWeatherApp.ViewModels
 		#region ConstructorGetUserInfo
 		public HomeViewModel()
 		{
-            LocalForecasts = new ObservableCollection<LocalForecast>();
             GetTemperature();
 			CurrentDate = DateTime.Now.Date.ToLongDateString();
 			FontStyle = "None";

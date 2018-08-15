@@ -248,11 +248,12 @@
                         </chart:SfChart.Series>
                    </chart:SfChart>
                 </StackLayout>-->
-        <ListView Margin="15,20"
-            BackgroundColor="Green"
+        <ListView Margin="10,20"
+            BackgroundColor="Transparent"
             HasUnevenRows="true"
             IsPullToRefreshEnabled="true"
             IsRefreshing="false"
+            IsEnabled="false"
             ItemsSource="{Binding LocalForecasts}"
             SeparatorVisibility="None"
             RefreshCommand="{Binding RefreshCommand}">
@@ -264,20 +265,23 @@
                         <StackLayout VerticalOptions="Fill"
                             Orientation="Horizontal"
                             HorizontalOptions="FillAndExpand"
-                            Padding="0,15,0,0">
+                            Padding="10">
                         
                             <Label Text="{Binding Day}"
                                 FontSize="15"
                                 FontAttributes="Bold"
                                 TextColor="{x:Static res:Colors.TextColor}"
-                                HorizontalOptions="Start"
+                                HorizontalOptions="FillAndExpand"
                                 Margin="0,10,0,0" />
+
+                            <Image Source="{Binding Icon}"
+                                   HorizontalOptions="CenterAndExpand"/>
 
                             <Label Text="{Binding Temp}"
                                 FontSize="15"
                                 FontAttributes="Bold"
                                 TextColor="{x:Static res:Colors.TextColor}"
-                                HorizontalOptions="End"
+                                HorizontalOptions="EndAndExpand"
                                 Margin="0,10,0,0" />
                         </StackLayout>
                     </ViewCell>
