@@ -126,7 +126,7 @@ namespace MyWeatherApp.ViewModels
             get { return localForecast; }
             set { SetValue(ref localForecast, value); }
         }
-#endregion
+        #endregion
 
         #region Methods
         public async void GetTemperature()
@@ -175,31 +175,33 @@ namespace MyWeatherApp.ViewModels
 
                 if(forecast.list[i].weather[0].main == "Clear")
                 {
-                    
+                    icon = "sunny.png";
                 }
                 else if(forecast.list[i].weather[0].main == "Thunderstorm")
                 {
-                    
+                    icon = "storm.png";
                 }
                 else if (forecast.list[i].weather[0].main == "Drizzle")
                 {
-
+                    icon = "drizzle.png";
                 }
                 else if (forecast.list[i].weather[0].main == "Rain")
                 {
-
+                    icon = "rain.png";
                 }
                 else if (forecast.list[i].weather[0].main == "Snow")
                 {
-
+                    icon = "snow.png";
                 }
-                else if (forecast.list[i].weather[0].main == "Clouds")
+                else if(forecast.list[i].weather[0].main == "Clouds")
                 {
-                    
+                    icon = "cloud.png";
                 }
 
-                icon = "settings.png";
-                string temp = forecast.list[i].temp.max.ToString() + " / " + forecast.list[0].temp.min;
+                icon = "cloud.png";
+                string temp = forecast.list[i].temp.max.ToString() + " / " + 
+                              forecast.list[i].temp.min;
+                
                 LocalForecasts.Add(new LocalForecast
                 {
                     Day = day,

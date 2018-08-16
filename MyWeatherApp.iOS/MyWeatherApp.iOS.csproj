@@ -168,5 +168,11 @@
     <BundleResource Include="Resources\gps_active.png" />
     <BundleResource Include="Resources\gps_active%402x.png" />
     <BundleResource Include="Resources\gps_active%403x.png" />
+    <BundleResource Include="Resources\sunny.png" />
+    <BundleResource Include="Resources\sunny%402x.png" />
+    <BundleResource Include="Resources\sunny%403x.png" />
+    <BundleResource Include="Resources\cloud.png" />
+    <BundleResource Include="Resources\cloud%402x.png" />
+    <BundleResource Include="Resources\cloud%403x.png" />
   </ItemGroup>
 </Project>
