@@ -1,11 +1,10 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
   <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A71EEC04-70FF-424E-8439-884CD349BF80" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/HomeViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Classes/Forecast.cs">
     <Files>
-      <File FileName="MyWeatherApp/Services/ApiService.cs" Line="74" Column="1" />
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="174" Column="27" />
-      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="296" Column="15" />
-      <File FileName="MyWeatherApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="114" Column="19" />
+      <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="68" Column="25" />
+      <File FileName="MyWeatherApp/Classes/Forecast.cs" Line="6" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

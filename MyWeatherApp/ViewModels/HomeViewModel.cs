@@ -111,6 +111,27 @@ namespace MyWeatherApp.ViewModels
 			set { SetValue(ref useGPS, value); }
         }
 
+        private string currentCondition;
+        public string CurrentCondition
+        {
+            get { return currentCondition; }
+            set { SetValue(ref currentCondition, value); }
+        }
+
+        private string currentRange;
+        public string CurrentRange
+        {
+            get { return currentRange; }
+            set { SetValue(ref currentRange, value); }
+        }
+
+        private ObservableCollection<LocalForecast> localForecast;
+        public ObservableCollection<LocalForecast> LocalForecasts
+        {
+            get { return localForecast; }
+            set { SetValue(ref localForecast, value); }
+        }
+
 		private Forecast forecast;
         private Country country;
         private ApiService apiService = new ApiService();
@@ -119,13 +140,6 @@ namespace MyWeatherApp.ViewModels
         public string units = "metric";
 		LocalizationService MyLocalization = new LocalizationService();
 		InternetConnection internetConnection = new InternetConnection();
-
-        private ObservableCollection<LocalForecast> localForecast;
-        public ObservableCollection<LocalForecast> LocalForecasts
-        {
-            get { return localForecast; }
-            set { SetValue(ref localForecast, value); }
-        }
         #endregion
 
         #region Methods
@@ -157,6 +171,9 @@ namespace MyWeatherApp.ViewModels
                 Clouds = forecast.list[0].clouds + "%";
                 Pressure = forecast.list[0].pressure.ToString();
                 Pressure = Pressure.Substring(0, 4) + " pHa";
+                CurrentCondition = forecast.list[0].weather[0].description;
+                CurrentCondition = char.ToUpper(CurrentCondition[0]) + CurrentCondition.Substring(1);
+                CurrentRange = forecast.list[0].temp.max + "º /" + forecast.list[0].temp.min + "º";
                 GetCountryName();
                 AddForecast();
              }
@@ -167,6 +184,7 @@ namespace MyWeatherApp.ViewModels
         void AddForecast()
         {
             LocalForecasts = new ObservableCollection<LocalForecast>();
+            //drizzle
 
             for (int i = 1; i < 5; i++)
             {
@@ -198,9 +216,10 @@ namespace MyWeatherApp.ViewModels
                     icon = "cloud.png";
                 }
 
-                icon = "cloud.png";
-                string temp = forecast.list[i].temp.max.ToString() + " / " + 
-                              forecast.list[i].temp.min;
+                string temp = forecast.list[i].temp.max.ToString() + "º / " + 
+                                      forecast.list[i].temp.min + "º ";
+
+                temp = forecast.list[i].temp.max.ToString() + "º";
                 
                 LocalForecasts.Add(new LocalForecast
                 {
