@@ -168,12 +168,12 @@
     <BundleResource Include="Resources\gps_active.png" />
     <BundleResource Include="Resources\gps_active%402x.png" />
     <BundleResource Include="Resources\gps_active%403x.png" />
-    <BundleResource Include="Resources\sunny.png" />
     <BundleResource Include="Resources\cloud.png" />
     <BundleResource Include="Resources\cloud%402x.png" />
     <BundleResource Include="Resources\cloud%403x.png" />
     <BundleResource Include="Resources\rain.png" />
     <BundleResource Include="Resources\snow.png" />
     <BundleResource Include="Resources\storm.png" />
+    <BundleResource Include="Resources\sunny.png" />
   </ItemGroup>
 </Project>

@@ -173,7 +173,7 @@ namespace MyWeatherApp.ViewModels
                 Pressure = Pressure.Substring(0, 4) + " pHa";
                 CurrentCondition = forecast.list[0].weather[0].description;
                 CurrentCondition = char.ToUpper(CurrentCondition[0]) + CurrentCondition.Substring(1);
-                CurrentRange = forecast.list[0].temp.max + "º /" + forecast.list[0].temp.min + "º";
+                CurrentRange = forecast.list[0].temp.max + "º / " + forecast.list[0].temp.min + "º";
                 GetCountryName();
                 AddForecast();
              }
@@ -216,16 +216,15 @@ namespace MyWeatherApp.ViewModels
                     icon = "cloud.png";
                 }
 
-                string temp = forecast.list[i].temp.max.ToString() + "º / " + 
-                                      forecast.list[i].temp.min + "º ";
+                string max = forecast.list[i].temp.max.ToString() + "º /";
+                string min = forecast.list[i].temp.min.ToString() + "º";
 
-                temp = forecast.list[i].temp.max.ToString() + "º";
-                
                 LocalForecasts.Add(new LocalForecast
                 {
                     Day = day,
                     Icon = icon,
-                    Temp = temp
+                    Max = max,
+                    Min = min
                 });
             }
         }

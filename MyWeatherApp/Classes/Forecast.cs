@@ -85,6 +85,7 @@ namespace MyWeatherApp.Classes
     {
         public string Day { get; set; }
         public string Icon { get; set; }
-        public string Temp { get; set; }
+        public string Max { get; set; }
+        public string Min { get; set; }
     }
 }

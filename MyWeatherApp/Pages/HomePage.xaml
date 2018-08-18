@@ -82,7 +82,7 @@
                 TextColor="{x:Static res:Colors.TextColor}"
                 HorizontalOptions="Center"/>
 
-        <Grid>
+        <Grid Margin="0,15,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30" />
                 <RowDefinition Height="30" />
@@ -277,7 +277,7 @@
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="50" />
+                                <ColumnDefinition Width="60" />
                                 <ColumnDefinition Width="50" />
                             </Grid.ColumnDefinitions>
                         
@@ -293,7 +293,7 @@
                                    Grid.Column="1"
                                    HorizontalOptions="CenterAndExpand"/>
 
-                            <Label Text="{Binding Temp}"
+                            <Label Text="{Binding Max}"
                                    Grid.Column="2"
                                    FontSize="15"
                                    FontAttributes="Bold"
@@ -301,12 +301,12 @@
                                    HorizontalOptions="End"
                                    Margin="0,10,0,0" />
 
-                            <Label Text="{Binding Temp}"
+                            <Label Text="{Binding Min}"
                                    Grid.Column="3"
                                    FontSize="15"
-                                   FontAttributes="Bold"
-                                   TextColor="{x:Static res:Colors.TextColor}"
-                                   HorizontalOptions="End"
+                                   FontAttributes="None"
+                                   TextColor="#e8e8e8"
+                                   HorizontalOptions="Start"
                                    Margin="0,10,0,0" />
                         </Grid>
                     </ViewCell>
