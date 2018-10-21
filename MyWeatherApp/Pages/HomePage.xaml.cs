@@ -15,6 +15,11 @@ namespace MyWeatherApp.Pages
 				MainViewModel.GetInstance().ManageCity = new ManageCitiesViewModel();
 				await Navigation.PushAsync(new ManageCitiesPage(), true);
             }));
+            if (MainViewModel.GetInstance().Home.Clouds == "") 
+            {
+
+            }
+            this.BackgroundImage = "background.png";
         }
 
 		protected override void OnAppearing()
