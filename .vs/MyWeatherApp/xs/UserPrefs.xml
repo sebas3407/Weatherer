@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{6B243D2C-B96B-4977-9A38-B7FD94A2436D}|Default">
-  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A71EEC04-70FF-424E-8439-884CD349BF80" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/ViewModels/HomeViewModel.cs">
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyWeatherApp/Pages/HomePage.xaml">
     <Files>
-      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="199" Column="34" />
+      <File FileName="MyWeatherApp/ViewModels/HomeViewModel.cs" Line="235" Column="22" />
       <File FileName="MyWeatherApp/Pages/HomePage.xaml" Line="317" Column="15" />
-      <File FileName="MyWeatherApp/Classes/Forecast.cs" Line="89" Column="26" />
-      <File FileName="MyWeatherApp.iOS/AppDelegate.cs" Line="14" Column="56" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7B8D2A31-B846-4D36-8DE7-7D7D3E703186" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -16,8 +17,5 @@
       <Breakpoint file="/Users/sebastianortizvelez/Weatherer/MyWeatherApp/Pages/HomePage.xaml" relfile="MyWeatherApp/Pages/HomePage.xaml" line="148" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
-  <MonoDevelop.Ide.ItemProperties.MyWeatherApp.UITests FirstBuild="True" />
 </Properties>

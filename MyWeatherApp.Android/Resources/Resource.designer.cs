@@ -26,1666 +26,45 @@ namespace MyWeatherApp.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_fade_in = global::MyWeatherApp.Droid.Resource.Animation.abc_fade_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_fade_out = global::MyWeatherApp.Droid.Resource.Animation.abc_fade_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MyWeatherApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_popup_enter = global::MyWeatherApp.Droid.Resource.Animation.abc_popup_enter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_popup_exit = global::MyWeatherApp.Droid.Resource.Animation.abc_popup_exit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MyWeatherApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::MyWeatherApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_in_top = global::MyWeatherApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::MyWeatherApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.abc_slide_out_top = global::MyWeatherApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MyWeatherApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MyWeatherApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_snackbar_in = global::MyWeatherApp.Droid.Resource.Animation.design_snackbar_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.design_snackbar_out = global::MyWeatherApp.Droid.Resource.Animation.design_snackbar_out;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadein = global::MyWeatherApp.Droid.Resource.Animation.Fadein;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Fadeout = global::MyWeatherApp.Droid.Resource.Animation.Fadeout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_in = global::MyWeatherApp.Droid.Resource.Animation.Scale_in;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Animation.Scale_out = global::MyWeatherApp.Droid.Resource.Animation.Scale_out;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarDivider = global::MyWeatherApp.Droid.Resource.Attribute.actionBarDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::MyWeatherApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::MyWeatherApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarSize = global::MyWeatherApp.Droid.Resource.Attribute.actionBarSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarTheme = global::MyWeatherApp.Droid.Resource.Attribute.actionBarTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::MyWeatherApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionLayout = global::MyWeatherApp.Droid.Resource.Attribute.actionLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::MyWeatherApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeBackground = global::MyWeatherApp.Droid.Resource.Attribute.actionModeBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::MyWeatherApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionModeStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MyWeatherApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MyWeatherApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionProviderClass = global::MyWeatherApp.Droid.Resource.Attribute.actionProviderClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.actionViewClass = global::MyWeatherApp.Droid.Resource.Attribute.actionViewClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::MyWeatherApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MyWeatherApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::MyWeatherApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogStyle = global::MyWeatherApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.alertDialogTheme = global::MyWeatherApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.allowStacking = global::MyWeatherApp.Droid.Resource.Attribute.allowStacking;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.arrowHeadLength = global::MyWeatherApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.arrowShaftLength = global::MyWeatherApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MyWeatherApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.background = global::MyWeatherApp.Droid.Resource.Attribute.background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundSplit = global::MyWeatherApp.Droid.Resource.Attribute.backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundStacked = global::MyWeatherApp.Droid.Resource.Attribute.backgroundStacked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundTint = global::MyWeatherApp.Droid.Resource.Attribute.backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.backgroundTintMode = global::MyWeatherApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.barLength = global::MyWeatherApp.Droid.Resource.Attribute.barLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_hideable = global::MyWeatherApp.Droid.Resource.Attribute.behavior_hideable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::MyWeatherApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::MyWeatherApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.borderWidth = global::MyWeatherApp.Droid.Resource.Attribute.borderWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MyWeatherApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::MyWeatherApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::MyWeatherApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonStyle = global::MyWeatherApp.Droid.Resource.Attribute.buttonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::MyWeatherApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonTint = global::MyWeatherApp.Droid.Resource.Attribute.buttonTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.buttonTintMode = global::MyWeatherApp.Droid.Resource.Attribute.buttonTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::MyWeatherApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardCornerRadius = global::MyWeatherApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardElevation = global::MyWeatherApp.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardMaxElevation = global::MyWeatherApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MyWeatherApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::MyWeatherApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.checkboxStyle = global::MyWeatherApp.Droid.Resource.Attribute.checkboxStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::MyWeatherApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.closeIcon = global::MyWeatherApp.Droid.Resource.Attribute.closeIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.closeItemLayout = global::MyWeatherApp.Droid.Resource.Attribute.closeItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapseContentDescription = global::MyWeatherApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapseIcon = global::MyWeatherApp.Droid.Resource.Attribute.collapseIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::MyWeatherApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.color = global::MyWeatherApp.Droid.Resource.Attribute.color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorAccent = global::MyWeatherApp.Droid.Resource.Attribute.colorAccent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorButtonNormal = global::MyWeatherApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlActivated = global::MyWeatherApp.Droid.Resource.Attribute.colorControlActivated;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlHighlight = global::MyWeatherApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorControlNormal = global::MyWeatherApp.Droid.Resource.Attribute.colorControlNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorPrimary = global::MyWeatherApp.Droid.Resource.Attribute.colorPrimary;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::MyWeatherApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MyWeatherApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.commitIcon = global::MyWeatherApp.Droid.Resource.Attribute.commitIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetEnd = global::MyWeatherApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetLeft = global::MyWeatherApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetRight = global::MyWeatherApp.Droid.Resource.Attribute.contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentInsetStart = global::MyWeatherApp.Droid.Resource.Attribute.contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPadding = global::MyWeatherApp.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::MyWeatherApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::MyWeatherApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingRight = global::MyWeatherApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentPaddingTop = global::MyWeatherApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.contentScrim = global::MyWeatherApp.Droid.Resource.Attribute.contentScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.controlBackground = global::MyWeatherApp.Droid.Resource.Attribute.controlBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterEnabled = global::MyWeatherApp.Droid.Resource.Attribute.counterEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterMaxLength = global::MyWeatherApp.Droid.Resource.Attribute.counterMaxLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.counterTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.customNavigationLayout = global::MyWeatherApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.defaultQueryHint = global::MyWeatherApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::MyWeatherApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dialogTheme = global::MyWeatherApp.Droid.Resource.Attribute.dialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.displayOptions = global::MyWeatherApp.Droid.Resource.Attribute.displayOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.divider = global::MyWeatherApp.Droid.Resource.Attribute.divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerHorizontal = global::MyWeatherApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerPadding = global::MyWeatherApp.Droid.Resource.Attribute.dividerPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dividerVertical = global::MyWeatherApp.Droid.Resource.Attribute.dividerVertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.drawableSize = global::MyWeatherApp.Droid.Resource.Attribute.drawableSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::MyWeatherApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::MyWeatherApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MyWeatherApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextBackground = global::MyWeatherApp.Droid.Resource.Attribute.editTextBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextColor = global::MyWeatherApp.Droid.Resource.Attribute.editTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.editTextStyle = global::MyWeatherApp.Droid.Resource.Attribute.editTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.elevation = global::MyWeatherApp.Droid.Resource.Attribute.elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.errorEnabled = global::MyWeatherApp.Droid.Resource.Attribute.errorEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.errorTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MyWeatherApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expanded = global::MyWeatherApp.Droid.Resource.Attribute.expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::MyWeatherApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.fabSize = global::MyWeatherApp.Droid.Resource.Attribute.fabSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::MyWeatherApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.gapBetweenBars = global::MyWeatherApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.goIcon = global::MyWeatherApp.Droid.Resource.Attribute.goIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.headerLayout = global::MyWeatherApp.Droid.Resource.Attribute.headerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.height = global::MyWeatherApp.Droid.Resource.Attribute.height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::MyWeatherApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::MyWeatherApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintEnabled = global::MyWeatherApp.Droid.Resource.Attribute.hintEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.hintTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::MyWeatherApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.homeLayout = global::MyWeatherApp.Droid.Resource.Attribute.homeLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.icon = global::MyWeatherApp.Droid.Resource.Attribute.icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::MyWeatherApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.imageButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::MyWeatherApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.initialActivityCount = global::MyWeatherApp.Droid.Resource.Attribute.initialActivityCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.insetForeground = global::MyWeatherApp.Droid.Resource.Attribute.insetForeground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.isLightTheme = global::MyWeatherApp.Droid.Resource.Attribute.isLightTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemBackground = global::MyWeatherApp.Droid.Resource.Attribute.itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemIconTint = global::MyWeatherApp.Droid.Resource.Attribute.itemIconTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemPadding = global::MyWeatherApp.Droid.Resource.Attribute.itemPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.itemTextColor = global::MyWeatherApp.Droid.Resource.Attribute.itemTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.keylines = global::MyWeatherApp.Droid.Resource.Attribute.keylines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout = global::MyWeatherApp.Droid.Resource.Attribute.layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layoutManager = global::MyWeatherApp.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_anchor = global::MyWeatherApp.Droid.Resource.Attribute.layout_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::MyWeatherApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_behavior = global::MyWeatherApp.Droid.Resource.Attribute.layout_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_collapseMode = global::MyWeatherApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MyWeatherApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_keyline = global::MyWeatherApp.Droid.Resource.Attribute.layout_keyline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::MyWeatherApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::MyWeatherApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MyWeatherApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::MyWeatherApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listItemLayout = global::MyWeatherApp.Droid.Resource.Attribute.listItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listLayout = global::MyWeatherApp.Droid.Resource.Attribute.listLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::MyWeatherApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::MyWeatherApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MyWeatherApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MyWeatherApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MyWeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MyWeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.logo = global::MyWeatherApp.Droid.Resource.Attribute.logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.logoDescription = global::MyWeatherApp.Droid.Resource.Attribute.logoDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::MyWeatherApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.maxButtonHeight = global::MyWeatherApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::MyWeatherApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::MyWeatherApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.menu = global::MyWeatherApp.Droid.Resource.Attribute.menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::MyWeatherApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationContentDescription = global::MyWeatherApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationIcon = global::MyWeatherApp.Droid.Resource.Attribute.navigationIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.navigationMode = global::MyWeatherApp.Droid.Resource.Attribute.navigationMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.overlapAnchor = global::MyWeatherApp.Droid.Resource.Attribute.overlapAnchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.paddingEnd = global::MyWeatherApp.Droid.Resource.Attribute.paddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.paddingStart = global::MyWeatherApp.Droid.Resource.Attribute.paddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelBackground = global::MyWeatherApp.Droid.Resource.Attribute.panelBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::MyWeatherApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::MyWeatherApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupMenuStyle = global::MyWeatherApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupTheme = global::MyWeatherApp.Droid.Resource.Attribute.popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.popupWindowStyle = global::MyWeatherApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::MyWeatherApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::MyWeatherApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.progressBarPadding = global::MyWeatherApp.Droid.Resource.Attribute.progressBarPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.progressBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.progressBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.queryBackground = global::MyWeatherApp.Droid.Resource.Attribute.queryBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.queryHint = global::MyWeatherApp.Droid.Resource.Attribute.queryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.radioButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MyWeatherApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::MyWeatherApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.reverseLayout = global::MyWeatherApp.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.rippleColor = global::MyWeatherApp.Droid.Resource.Attribute.rippleColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchHintIcon = global::MyWeatherApp.Droid.Resource.Attribute.searchHintIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchIcon = global::MyWeatherApp.Droid.Resource.Attribute.searchIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.searchViewStyle = global::MyWeatherApp.Droid.Resource.Attribute.searchViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.seekBarStyle = global::MyWeatherApp.Droid.Resource.Attribute.seekBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.selectableItemBackground = global::MyWeatherApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MyWeatherApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showAsAction = global::MyWeatherApp.Droid.Resource.Attribute.showAsAction;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showDividers = global::MyWeatherApp.Droid.Resource.Attribute.showDividers;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.showText = global::MyWeatherApp.Droid.Resource.Attribute.showText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::MyWeatherApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spanCount = global::MyWeatherApp.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinBars = global::MyWeatherApp.Droid.Resource.Attribute.spinBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MyWeatherApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.spinnerStyle = global::MyWeatherApp.Droid.Resource.Attribute.spinnerStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.splitTrack = global::MyWeatherApp.Droid.Resource.Attribute.splitTrack;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.srcCompat = global::MyWeatherApp.Droid.Resource.Attribute.srcCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.stackFromEnd = global::MyWeatherApp.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.state_above_anchor = global::MyWeatherApp.Droid.Resource.Attribute.state_above_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.statusBarBackground = global::MyWeatherApp.Droid.Resource.Attribute.statusBarBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.statusBarScrim = global::MyWeatherApp.Droid.Resource.Attribute.statusBarScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.submitBackground = global::MyWeatherApp.Droid.Resource.Attribute.submitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitle = global::MyWeatherApp.Droid.Resource.Attribute.subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextColor = global::MyWeatherApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::MyWeatherApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::MyWeatherApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchMinWidth = global::MyWeatherApp.Droid.Resource.Attribute.switchMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchPadding = global::MyWeatherApp.Droid.Resource.Attribute.switchPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchStyle = global::MyWeatherApp.Droid.Resource.Attribute.switchStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.switchTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabBackground = global::MyWeatherApp.Droid.Resource.Attribute.tabBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabContentStart = global::MyWeatherApp.Droid.Resource.Attribute.tabContentStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabGravity = global::MyWeatherApp.Droid.Resource.Attribute.tabGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::MyWeatherApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::MyWeatherApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMaxWidth = global::MyWeatherApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMinWidth = global::MyWeatherApp.Droid.Resource.Attribute.tabMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabMode = global::MyWeatherApp.Droid.Resource.Attribute.tabMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPadding = global::MyWeatherApp.Droid.Resource.Attribute.tabPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::MyWeatherApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::MyWeatherApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingStart = global::MyWeatherApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabPaddingTop = global::MyWeatherApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::MyWeatherApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.tabTextColor = global::MyWeatherApp.Droid.Resource.Attribute.tabTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAllCaps = global::MyWeatherApp.Droid.Resource.Attribute.textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MyWeatherApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MyWeatherApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorError = global::MyWeatherApp.Droid.Resource.Attribute.textColorError;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::MyWeatherApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.theme = global::MyWeatherApp.Droid.Resource.Attribute.theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.thickness = global::MyWeatherApp.Droid.Resource.Attribute.thickness;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.thumbTextPadding = global::MyWeatherApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.title = global::MyWeatherApp.Droid.Resource.Attribute.title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleEnabled = global::MyWeatherApp.Droid.Resource.Attribute.titleEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginBottom = global::MyWeatherApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginEnd = global::MyWeatherApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginStart = global::MyWeatherApp.Droid.Resource.Attribute.titleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMarginTop = global::MyWeatherApp.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleMargins = global::MyWeatherApp.Droid.Resource.Attribute.titleMargins;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextAppearance = global::MyWeatherApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextColor = global::MyWeatherApp.Droid.Resource.Attribute.titleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.titleTextStyle = global::MyWeatherApp.Droid.Resource.Attribute.titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarId = global::MyWeatherApp.Droid.Resource.Attribute.toolbarId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MyWeatherApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.toolbarStyle = global::MyWeatherApp.Droid.Resource.Attribute.toolbarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.track = global::MyWeatherApp.Droid.Resource.Attribute.track;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.useCompatPadding = global::MyWeatherApp.Droid.Resource.Attribute.useCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.voiceIcon = global::MyWeatherApp.Droid.Resource.Attribute.voiceIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionBar = global::MyWeatherApp.Droid.Resource.Attribute.windowActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::MyWeatherApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::MyWeatherApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::MyWeatherApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::MyWeatherApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::MyWeatherApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::MyWeatherApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::MyWeatherApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::MyWeatherApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Attribute.windowNoTitle = global::MyWeatherApp.Droid.Resource.Attribute.windowNoTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MyWeatherApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MyWeatherApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MyWeatherApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::MyWeatherApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::MyWeatherApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MyWeatherApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MyWeatherApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_color_highlight_material = global::MyWeatherApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::MyWeatherApp.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MyWeatherApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MyWeatherApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::MyWeatherApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::MyWeatherApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text = global::MyWeatherApp.Droid.Resource.Color.abc_search_url_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::MyWeatherApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::MyWeatherApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::MyWeatherApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::MyWeatherApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::MyWeatherApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.accent_material_dark = global::MyWeatherApp.Droid.Resource.Color.accent_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.accent_material_light = global::MyWeatherApp.Droid.Resource.Color.accent_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_floating_material_dark = global::MyWeatherApp.Droid.Resource.Color.background_floating_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_floating_material_light = global::MyWeatherApp.Droid.Resource.Color.background_floating_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_material_dark = global::MyWeatherApp.Droid.Resource.Color.background_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.background_material_light = global::MyWeatherApp.Droid.Resource.Color.background_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.bright_foreground_material_light = global::MyWeatherApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.button_material_dark = global::MyWeatherApp.Droid.Resource.Color.button_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.button_material_light = global::MyWeatherApp.Droid.Resource.Color.button_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_dark_background = global::MyWeatherApp.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_light_background = global::MyWeatherApp.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::MyWeatherApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::MyWeatherApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MyWeatherApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.design_snackbar_background_color = global::MyWeatherApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MyWeatherApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MyWeatherApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::MyWeatherApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.dim_foreground_material_light = global::MyWeatherApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.foreground_material_dark = global::MyWeatherApp.Droid.Resource.Color.foreground_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.foreground_material_light = global::MyWeatherApp.Droid.Resource.Color.foreground_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::MyWeatherApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.highlighted_text_material_light = global::MyWeatherApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_800 = global::MyWeatherApp.Droid.Resource.Color.material_blue_grey_800;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_900 = global::MyWeatherApp.Droid.Resource.Color.material_blue_grey_900;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_blue_grey_950 = global::MyWeatherApp.Droid.Resource.Color.material_blue_grey_950;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_deep_teal_200 = global::MyWeatherApp.Droid.Resource.Color.material_deep_teal_200;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_deep_teal_500 = global::MyWeatherApp.Droid.Resource.Color.material_deep_teal_500;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_100 = global::MyWeatherApp.Droid.Resource.Color.material_grey_100;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_300 = global::MyWeatherApp.Droid.Resource.Color.material_grey_300;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_50 = global::MyWeatherApp.Droid.Resource.Color.material_grey_50;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_600 = global::MyWeatherApp.Droid.Resource.Color.material_grey_600;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_800 = global::MyWeatherApp.Droid.Resource.Color.material_grey_800;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_850 = global::MyWeatherApp.Droid.Resource.Color.material_grey_850;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.material_grey_900 = global::MyWeatherApp.Droid.Resource.Color.material_grey_900;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_dark_material_dark = global::MyWeatherApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_dark_material_light = global::MyWeatherApp.Droid.Resource.Color.primary_dark_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_material_dark = global::MyWeatherApp.Droid.Resource.Color.primary_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_material_light = global::MyWeatherApp.Droid.Resource.Color.primary_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::MyWeatherApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_default_material_light = global::MyWeatherApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::MyWeatherApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::MyWeatherApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.ripple_material_dark = global::MyWeatherApp.Droid.Resource.Color.ripple_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.ripple_material_light = global::MyWeatherApp.Droid.Resource.Color.ripple_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::MyWeatherApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::MyWeatherApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MyWeatherApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::MyWeatherApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_material_light = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::MyWeatherApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MyWeatherApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MyWeatherApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MyWeatherApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MyWeatherApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MyWeatherApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MyWeatherApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MyWeatherApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::MyWeatherApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MyWeatherApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MyWeatherApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_switch_padding = global::MyWeatherApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MyWeatherApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MyWeatherApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::MyWeatherApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.cardview_default_radius = global::MyWeatherApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::MyWeatherApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MyWeatherApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_border_width = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_elevation = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_image_size = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MyWeatherApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MyWeatherApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::MyWeatherApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_max_width = global::MyWeatherApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MyWeatherApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_text_size = global::MyWeatherApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::MyWeatherApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MyWeatherApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::MyWeatherApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MyWeatherApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MyWeatherApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::MyWeatherApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MyWeatherApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MyWeatherApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MyWeatherApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MyWeatherApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MyWeatherApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MyWeatherApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MyWeatherApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::MyWeatherApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::MyWeatherApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::MyWeatherApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::MyWeatherApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Dimension.notification_subtext_size = global::MyWeatherApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MyWeatherApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MyWeatherApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_control_background_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MyWeatherApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MyWeatherApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::MyWeatherApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MyWeatherApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MyWeatherApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MyWeatherApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MyWeatherApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MyWeatherApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MyWeatherApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::MyWeatherApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.design_fab_background = global::MyWeatherApp.Droid.Resource.Drawable.design_fab_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.design_snackbar_background = global::MyWeatherApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.ic_audiotrack_light = global::MyWeatherApp.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::MyWeatherApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::MyWeatherApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::MyWeatherApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action0 = global::MyWeatherApp.Droid.Resource.Id.action0;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar = global::MyWeatherApp.Droid.Resource.Id.action_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_activity_content = global::MyWeatherApp.Droid.Resource.Id.action_bar_activity_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_container = global::MyWeatherApp.Droid.Resource.Id.action_bar_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_root = global::MyWeatherApp.Droid.Resource.Id.action_bar_root;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_spinner = global::MyWeatherApp.Droid.Resource.Id.action_bar_spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_subtitle = global::MyWeatherApp.Droid.Resource.Id.action_bar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_bar_title = global::MyWeatherApp.Droid.Resource.Id.action_bar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_context_bar = global::MyWeatherApp.Droid.Resource.Id.action_context_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_divider = global::MyWeatherApp.Droid.Resource.Id.action_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_menu_divider = global::MyWeatherApp.Droid.Resource.Id.action_menu_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_menu_presenter = global::MyWeatherApp.Droid.Resource.Id.action_menu_presenter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_bar = global::MyWeatherApp.Droid.Resource.Id.action_mode_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_bar_stub = global::MyWeatherApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.action_mode_close_button = global::MyWeatherApp.Droid.Resource.Id.action_mode_close_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.activity_chooser_view_content = global::MyWeatherApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.alertTitle = global::MyWeatherApp.Droid.Resource.Id.alertTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.always = global::MyWeatherApp.Droid.Resource.Id.always;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.annotationLayout = global::MyWeatherApp.Droid.Resource.Id.annotationLayout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.axisLayout = global::MyWeatherApp.Droid.Resource.Id.axisLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.beginning = global::MyWeatherApp.Droid.Resource.Id.beginning;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom = global::MyWeatherApp.Droid.Resource.Id.bottom;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.bottom_labels = global::MyWeatherApp.Droid.Resource.Id.bottom_labels;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.buttonPanel = global::MyWeatherApp.Droid.Resource.Id.buttonPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.cancel_action = global::MyWeatherApp.Droid.Resource.Id.cancel_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center = global::MyWeatherApp.Droid.Resource.Id.center;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center_horizontal = global::MyWeatherApp.Droid.Resource.Id.center_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.center_vertical = global::MyWeatherApp.Droid.Resource.Id.center_vertical;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartBehaviorLayout = global::MyWeatherApp.Droid.Resource.Id.chartBehaviorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.checkbox = global::MyWeatherApp.Droid.Resource.Id.checkbox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chronometer = global::MyWeatherApp.Droid.Resource.Id.chronometer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.clip_horizontal = global::MyWeatherApp.Droid.Resource.Id.clip_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.clip_vertical = global::MyWeatherApp.Droid.Resource.Id.clip_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.collapseActionView = global::MyWeatherApp.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.chartLegendScrollView = global::MyWeatherApp.Droid.Resource.Id.chartLegendScrollView;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.content = global::MyWeatherApp.Droid.Resource.Id.content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.contentPanel = global::MyWeatherApp.Droid.Resource.Id.contentPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.custom = global::MyWeatherApp.Droid.Resource.Id.custom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.customPanel = global::MyWeatherApp.Droid.Resource.Id.customPanel;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.dataMarkerLayout = global::MyWeatherApp.Droid.Resource.Id.dataMarkerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.decor_content_parent = global::MyWeatherApp.Droid.Resource.Id.decor_content_parent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.default_activity_button = global::MyWeatherApp.Droid.Resource.Id.default_activity_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_bottom_sheet = global::MyWeatherApp.Droid.Resource.Id.design_bottom_sheet;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_action_area = global::MyWeatherApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::MyWeatherApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_menu_item_text = global::MyWeatherApp.Droid.Resource.Id.design_menu_item_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.design_navigation_view = global::MyWeatherApp.Droid.Resource.Id.design_navigation_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.disableHome = global::MyWeatherApp.Droid.Resource.Id.disableHome;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.edit_query = global::MyWeatherApp.Droid.Resource.Id.edit_query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.end = global::MyWeatherApp.Droid.Resource.Id.end;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.end_padder = global::MyWeatherApp.Droid.Resource.Id.end_padder;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.enterAlways = global::MyWeatherApp.Droid.Resource.Id.enterAlways;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::MyWeatherApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.exitUntilCollapsed = global::MyWeatherApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.expand_activities_button = global::MyWeatherApp.Droid.Resource.Id.expand_activities_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.expanded_menu = global::MyWeatherApp.Droid.Resource.Id.expanded_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill = global::MyWeatherApp.Droid.Resource.Id.fill;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill_horizontal = global::MyWeatherApp.Droid.Resource.Id.fill_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.fill_vertical = global::MyWeatherApp.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.@fixed = global::MyWeatherApp.Droid.Resource.Id.@fixed;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLineLayout = global::MyWeatherApp.Droid.Resource.Id.gridLineLayout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.gridLinesLayout = global::MyWeatherApp.Droid.Resource.Id.gridLinesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.home = global::MyWeatherApp.Droid.Resource.Id.home;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.homeAsUp = global::MyWeatherApp.Droid.Resource.Id.homeAsUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.icon = global::MyWeatherApp.Droid.Resource.Id.icon;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.iconView = global::MyWeatherApp.Droid.Resource.Id.iconView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.ifRoom = global::MyWeatherApp.Droid.Resource.Id.ifRoom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.image = global::MyWeatherApp.Droid.Resource.Id.image;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.info = global::MyWeatherApp.Droid.Resource.Id.info;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MyWeatherApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.label = global::MyWeatherApp.Droid.Resource.Id.label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.left = global::MyWeatherApp.Droid.Resource.Id.left;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendHeader = global::MyWeatherApp.Droid.Resource.Id.legendHeader;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendItemsLayout = global::MyWeatherApp.Droid.Resource.Id.legendItemsLayout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendLayout = global::MyWeatherApp.Droid.Resource.Id.legendLayout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendScrollView = global::MyWeatherApp.Droid.Resource.Id.legendScrollView;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.legendViewGroup = global::MyWeatherApp.Droid.Resource.Id.legendViewGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.line1 = global::MyWeatherApp.Droid.Resource.Id.line1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.line3 = global::MyWeatherApp.Droid.Resource.Id.line3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.listMode = global::MyWeatherApp.Droid.Resource.Id.listMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.list_item = global::MyWeatherApp.Droid.Resource.Id.list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.media_actions = global::MyWeatherApp.Droid.Resource.Id.media_actions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.middle = global::MyWeatherApp.Droid.Resource.Id.middle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mini = global::MyWeatherApp.Droid.Resource.Id.mini;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_art = global::MyWeatherApp.Droid.Resource.Id.mr_art;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_list = global::MyWeatherApp.Droid.Resource.Id.mr_chooser_list;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_desc = global::MyWeatherApp.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_icon = global::MyWeatherApp.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_chooser_route_name = global::MyWeatherApp.Droid.Resource.Id.mr_chooser_route_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_close = global::MyWeatherApp.Droid.Resource.Id.mr_close;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_divider = global::MyWeatherApp.Droid.Resource.Id.mr_control_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_subtitle = global::MyWeatherApp.Droid.Resource.Id.mr_control_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_title = global::MyWeatherApp.Droid.Resource.Id.mr_control_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_control_title_container = global::MyWeatherApp.Droid.Resource.Id.mr_control_title_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_custom_control = global::MyWeatherApp.Droid.Resource.Id.mr_custom_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_default_control = global::MyWeatherApp.Droid.Resource.Id.mr_default_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_dialog_area = global::MyWeatherApp.Droid.Resource.Id.mr_dialog_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_expandable_area = global::MyWeatherApp.Droid.Resource.Id.mr_expandable_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_group_expand_collapse = global::MyWeatherApp.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_media_main_control = global::MyWeatherApp.Droid.Resource.Id.mr_media_main_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_name = global::MyWeatherApp.Droid.Resource.Id.mr_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_playback_control = global::MyWeatherApp.Droid.Resource.Id.mr_playback_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_title_bar = global::MyWeatherApp.Droid.Resource.Id.mr_title_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_control = global::MyWeatherApp.Droid.Resource.Id.mr_volume_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_group_list = global::MyWeatherApp.Droid.Resource.Id.mr_volume_group_list;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_item_icon = global::MyWeatherApp.Droid.Resource.Id.mr_volume_item_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.mr_volume_slider = global::MyWeatherApp.Droid.Resource.Id.mr_volume_slider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.multiply = global::MyWeatherApp.Droid.Resource.Id.multiply;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.navigation_header_container = global::MyWeatherApp.Droid.Resource.Id.navigation_header_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.never = global::MyWeatherApp.Droid.Resource.Id.never;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.none = global::MyWeatherApp.Droid.Resource.Id.none;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.normal = global::MyWeatherApp.Droid.Resource.Id.normal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.parallax = global::MyWeatherApp.Droid.Resource.Id.parallax;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.parentPanel = global::MyWeatherApp.Droid.Resource.Id.parentPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.pin = global::MyWeatherApp.Droid.Resource.Id.pin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.progress_circular = global::MyWeatherApp.Droid.Resource.Id.progress_circular;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.progress_horizontal = global::MyWeatherApp.Droid.Resource.Id.progress_horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.radio = global::MyWeatherApp.Droid.Resource.Id.radio;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.right = global::MyWeatherApp.Droid.Resource.Id.right;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.rootLayout = global::MyWeatherApp.Droid.Resource.Id.rootLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.screen = global::MyWeatherApp.Droid.Resource.Id.screen;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scroll = global::MyWeatherApp.Droid.Resource.Id.scroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollIndicatorDown = global::MyWeatherApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollIndicatorUp = global::MyWeatherApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollView = global::MyWeatherApp.Droid.Resource.Id.scrollView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.scrollable = global::MyWeatherApp.Droid.Resource.Id.scrollable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_badge = global::MyWeatherApp.Droid.Resource.Id.search_badge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_bar = global::MyWeatherApp.Droid.Resource.Id.search_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_button = global::MyWeatherApp.Droid.Resource.Id.search_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_close_btn = global::MyWeatherApp.Droid.Resource.Id.search_close_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_edit_frame = global::MyWeatherApp.Droid.Resource.Id.search_edit_frame;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_go_btn = global::MyWeatherApp.Droid.Resource.Id.search_go_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_mag_icon = global::MyWeatherApp.Droid.Resource.Id.search_mag_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_plate = global::MyWeatherApp.Droid.Resource.Id.search_plate;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_src_text = global::MyWeatherApp.Droid.Resource.Id.search_src_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.search_voice_btn = global::MyWeatherApp.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.select_dialog_listview = global::MyWeatherApp.Droid.Resource.Id.select_dialog_listview;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.seriesLayout = global::MyWeatherApp.Droid.Resource.Id.seriesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.shortcut = global::MyWeatherApp.Droid.Resource.Id.shortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showCustom = global::MyWeatherApp.Droid.Resource.Id.showCustom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showHome = global::MyWeatherApp.Droid.Resource.Id.showHome;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.showTitle = global::MyWeatherApp.Droid.Resource.Id.showTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snackbar_action = global::MyWeatherApp.Droid.Resource.Id.snackbar_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snackbar_text = global::MyWeatherApp.Droid.Resource.Id.snackbar_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.snap = global::MyWeatherApp.Droid.Resource.Id.snap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.spacer = global::MyWeatherApp.Droid.Resource.Id.spacer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.split_action_bar = global::MyWeatherApp.Droid.Resource.Id.split_action_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_atop = global::MyWeatherApp.Droid.Resource.Id.src_atop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_in = global::MyWeatherApp.Droid.Resource.Id.src_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.src_over = global::MyWeatherApp.Droid.Resource.Id.src_over;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.start = global::MyWeatherApp.Droid.Resource.Id.start;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::MyWeatherApp.Droid.Resource.Id.status_bar_latest_event_content;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.stripLinesLayout = global::MyWeatherApp.Droid.Resource.Id.stripLinesLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.submit_area = global::MyWeatherApp.Droid.Resource.Id.submit_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.tabMode = global::MyWeatherApp.Droid.Resource.Id.tabMode;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.technicalIndicatorLayout = global::MyWeatherApp.Droid.Resource.Id.technicalIndicatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.text = global::MyWeatherApp.Droid.Resource.Id.text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.text2 = global::MyWeatherApp.Droid.Resource.Id.text2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.textSpacerNoButtons = global::MyWeatherApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.thumbLayout = global::MyWeatherApp.Droid.Resource.Id.thumbLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.time = global::MyWeatherApp.Droid.Resource.Id.time;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.title = global::MyWeatherApp.Droid.Resource.Id.title;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.titleLayout = global::MyWeatherApp.Droid.Resource.Id.titleLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.title_template = global::MyWeatherApp.Droid.Resource.Id.title_template;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top = global::MyWeatherApp.Droid.Resource.Id.top;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.topPanel = global::MyWeatherApp.Droid.Resource.Id.topPanel;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.top_labels = global::MyWeatherApp.Droid.Resource.Id.top_labels;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.touch_outside = global::MyWeatherApp.Droid.Resource.Id.touch_outside;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.up = global::MyWeatherApp.Droid.Resource.Id.up;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.useLogo = global::MyWeatherApp.Droid.Resource.Id.useLogo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.view_offset_helper = global::MyWeatherApp.Droid.Resource.Id.view_offset_helper;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.volume_item_container = global::MyWeatherApp.Droid.Resource.Id.volume_item_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.withText = global::MyWeatherApp.Droid.Resource.Id.withText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Id.wrap_content = global::MyWeatherApp.Droid.Resource.Id.wrap_content;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MyWeatherApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::MyWeatherApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MyWeatherApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::MyWeatherApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MyWeatherApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MyWeatherApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MyWeatherApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MyWeatherApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MyWeatherApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::MyWeatherApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MyWeatherApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::MyWeatherApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::MyWeatherApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::MyWeatherApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::MyWeatherApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::MyWeatherApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MyWeatherApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::MyWeatherApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MyWeatherApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MyWeatherApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::MyWeatherApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::MyWeatherApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::MyWeatherApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MyWeatherApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::MyWeatherApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::MyWeatherApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::MyWeatherApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MyWeatherApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_content_include = global::MyWeatherApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_simple = global::MyWeatherApp.Droid.Resource.Layout.abc_screen_simple;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MyWeatherApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::MyWeatherApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MyWeatherApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_search_view = global::MyWeatherApp.Droid.Resource.Layout.abc_search_view;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::MyWeatherApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_layout = global::MyWeatherApp.Droid.Resource.Layout.chart_layout;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend = global::MyWeatherApp.Droid.Resource.Layout.chart_legend;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.chart_legend_item = global::MyWeatherApp.Droid.Resource.Layout.chart_legend_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MyWeatherApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_snackbar = global::MyWeatherApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::MyWeatherApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::MyWeatherApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_layout_tab_text = global::MyWeatherApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::MyWeatherApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_header = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_menu = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::MyWeatherApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_chooser_dialog = global::MyWeatherApp.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_chooser_list_item = global::MyWeatherApp.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::MyWeatherApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_controller_volume_item = global::MyWeatherApp.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_playback_control = global::MyWeatherApp.Droid.Resource.Layout.mr_playback_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.mr_volume_control = global::MyWeatherApp.Droid.Resource.Layout.mr_volume_control;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_media_action = global::MyWeatherApp.Droid.Resource.Layout.notification_media_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::MyWeatherApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_big_media = global::MyWeatherApp.Droid.Resource.Layout.notification_template_big_media;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::MyWeatherApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_media = global::MyWeatherApp.Droid.Resource.Layout.notification_template_media;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::MyWeatherApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.notification_template_part_time = global::MyWeatherApp.Droid.Resource.Layout.notification_template_part_time;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.range_navigator_layout = global::MyWeatherApp.Droid.Resource.Layout.range_navigator_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_item_material = global::MyWeatherApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::MyWeatherApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MyWeatherApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MyWeatherApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_home_description = global::MyWeatherApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_bar_up_description = global::MyWeatherApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::MyWeatherApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_action_mode_done = global::MyWeatherApp.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MyWeatherApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::MyWeatherApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_capital_off = global::MyWeatherApp.Droid.Resource.String.abc_capital_off;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_capital_on = global::MyWeatherApp.Droid.Resource.String.abc_capital_on;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_search_hint = global::MyWeatherApp.Droid.Resource.String.abc_search_hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_clear = global::MyWeatherApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_query = global::MyWeatherApp.Droid.Resource.String.abc_searchview_description_query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_search = global::MyWeatherApp.Droid.Resource.String.abc_searchview_description_search;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_submit = global::MyWeatherApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_searchview_description_voice = global::MyWeatherApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::MyWeatherApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MyWeatherApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::MyWeatherApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::MyWeatherApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.bottom_sheet_behavior = global::MyWeatherApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.character_counter_pattern = global::MyWeatherApp.Droid.Resource.String.character_counter_pattern;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_button_content_description = global::MyWeatherApp.Droid.Resource.String.mr_button_content_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_chooser_searching = global::MyWeatherApp.Droid.Resource.String.mr_chooser_searching;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_chooser_title = global::MyWeatherApp.Droid.Resource.String.mr_chooser_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_casting_screen = global::MyWeatherApp.Droid.Resource.String.mr_controller_casting_screen;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_close_description = global::MyWeatherApp.Droid.Resource.String.mr_controller_close_description;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_collapse_group = global::MyWeatherApp.Droid.Resource.String.mr_controller_collapse_group;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_disconnect = global::MyWeatherApp.Droid.Resource.String.mr_controller_disconnect;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_expand_group = global::MyWeatherApp.Droid.Resource.String.mr_controller_expand_group;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_no_info_available = global::MyWeatherApp.Droid.Resource.String.mr_controller_no_info_available;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_no_media_selected = global::MyWeatherApp.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_pause = global::MyWeatherApp.Droid.Resource.String.mr_controller_pause;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_play = global::MyWeatherApp.Droid.Resource.String.mr_controller_play;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_controller_stop = global::MyWeatherApp.Droid.Resource.String.mr_controller_stop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_system_route_name = global::MyWeatherApp.Droid.Resource.String.mr_system_route_name;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.mr_user_route_category_name = global::MyWeatherApp.Droid.Resource.String.mr_user_route_category_name;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.q = global::MyWeatherApp.Droid.Resource.String.q;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.quarter = global::MyWeatherApp.Droid.Resource.String.quarter;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_close_label = global::MyWeatherApp.Droid.Resource.String.sfchart_close_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_high_label = global::MyWeatherApp.Droid.Resource.String.sfchart_high_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_low_label = global::MyWeatherApp.Droid.Resource.String.sfchart_low_label;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.sfchart_open_label = global::MyWeatherApp.Droid.Resource.String.sfchart_open_label;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::MyWeatherApp.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.w = global::MyWeatherApp.Droid.Resource.String.w;
 			global::Syncfusion.SfChart.XForms.Droid.Resource.String.week = global::MyWeatherApp.Droid.Resource.String.week;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::MyWeatherApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MyWeatherApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MyWeatherApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MyWeatherApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_CardView = global::MyWeatherApp.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MyWeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MyWeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MyWeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::MyWeatherApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::MyWeatherApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MyWeatherApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MyWeatherApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView = global::MyWeatherApp.Droid.Resource.Style.CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView_Dark = global::MyWeatherApp.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.CardView_Light = global::MyWeatherApp.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Platform_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MyWeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V11_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V14_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MyWeatherApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MyWeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MyWeatherApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MyWeatherApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MyWeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design = global::MyWeatherApp.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MyWeatherApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light = global::MyWeatherApp.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MyWeatherApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::MyWeatherApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter = global::MyWeatherApp.Droid.Resource.Style.Theme_MediaRouter;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_Light = global::MyWeatherApp.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MyWeatherApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MyWeatherApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MyWeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MyWeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MyWeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MyWeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MyWeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MyWeatherApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MyWeatherApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MyWeatherApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MyWeatherApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_background = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_divider = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_height = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_icon = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_logo = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_title = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBarLayout = global::MyWeatherApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MyWeatherApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::MyWeatherApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MyWeatherApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMenuView = global::MyWeatherApp.Droid.Resource.Styleable.ActionMenuView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_background = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_height = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView = global::MyWeatherApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MyWeatherApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MyWeatherApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MyWeatherApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout = global::MyWeatherApp.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::MyWeatherApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::MyWeatherApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::MyWeatherApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MyWeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::MyWeatherApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MyWeatherApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView = global::MyWeatherApp.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::MyWeatherApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::MyWeatherApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MyWeatherApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::MyWeatherApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MyWeatherApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MyWeatherApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MyWeatherApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MyWeatherApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MyWeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton = global::MyWeatherApp.Droid.Resource.Styleable.CompoundButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::MyWeatherApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MyWeatherApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MyWeatherApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::MyWeatherApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MyWeatherApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MyWeatherApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme = global::MyWeatherApp.Droid.Resource.Styleable.DesignTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MyWeatherApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MyWeatherApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DesignTheme_textColorError = global::MyWeatherApp.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MyWeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MyWeatherApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::MyWeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MyWeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MyWeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MyWeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MyWeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow = global::MyWeatherApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MyWeatherApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MyWeatherApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton = global::MyWeatherApp.Droid.Resource.Styleable.MediaRouteButton;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::MyWeatherApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::MyWeatherApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MyWeatherApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::MyWeatherApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::MyWeatherApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView = global::MyWeatherApp.Droid.Resource.Styleable.MenuView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MyWeatherApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.NavigationView_menu = global::MyWeatherApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow = global::MyWeatherApp.Droid.Resource.Styleable.PopupWindow;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MyWeatherApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MyWeatherApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MyWeatherApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MyWeatherApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MyWeatherApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MyWeatherApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MyWeatherApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView = global::MyWeatherApp.Droid.Resource.Styleable.SearchView;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_layout = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::MyWeatherApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout = global::MyWeatherApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MyWeatherApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MyWeatherApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MyWeatherApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner = global::MyWeatherApp.Droid.Resource.Styleable.Spinner;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MyWeatherApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::MyWeatherApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MyWeatherApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::MyWeatherApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::MyWeatherApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::MyWeatherApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem = global::MyWeatherApp.Droid.Resource.Styleable.TabItem;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::MyWeatherApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::MyWeatherApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabItem_android_text = global::MyWeatherApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MyWeatherApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MyWeatherApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_logo = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_title = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_title;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MyWeatherApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View = global::MyWeatherApp.Droid.Resource.Styleable.View;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_android_focusable = global::MyWeatherApp.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_android_theme = global::MyWeatherApp.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_paddingEnd = global::MyWeatherApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_paddingStart = global::MyWeatherApp.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.View_theme = global::MyWeatherApp.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::MyWeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MyWeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MyWeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MyWeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat = global::MyWeatherApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MyWeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MyWeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Syncfusion.SfChart.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MyWeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::MyWeatherApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -4732,8 +3111,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090037
 			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int action0 = 2131296454;
+			// aapt resource value: 0x7f0900c8
+			public const int action0 = 2131296456;
 			
 			// aapt resource value: 0x7f09007c
 			public const int action_bar = 2131296380;
@@ -4756,17 +3135,17 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09005a
 			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0900c3
-			public const int action_container = 2131296451;
+			// aapt resource value: 0x7f0900c5
+			public const int action_container = 2131296453;
 			
 			// aapt resource value: 0x7f09007d
 			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int action_divider = 2131296458;
+			// aapt resource value: 0x7f0900cc
+			public const int action_divider = 2131296460;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int action_image = 2131296452;
+			// aapt resource value: 0x7f0900c6
+			public const int action_image = 2131296454;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -4783,11 +3162,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09005c
 			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int action_text = 2131296453;
+			// aapt resource value: 0x7f0900c7
+			public const int action_text = 2131296455;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int actions = 2131296467;
+			// aapt resource value: 0x7f0900d5
+			public const int actions = 2131296469;
 			
 			// aapt resource value: 0x7f09005d
 			public const int activity_chooser_view_content = 2131296349;
@@ -4803,6 +3182,9 @@ namespace MyWeatherApp.Droid
 			
 			// aapt resource value: 0x7f090038
 			public const int always = 2131296312;
+			
+			// aapt resource value: 0x7f090095
+			public const int annotationLayout = 2131296405;
 			
 			// aapt resource value: 0x7f090056
 			public const int async = 2131296342;
@@ -4822,14 +3204,14 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09003d
 			public const int bottom = 2131296317;
 			
-			// aapt resource value: 0x7f0900d7
-			public const int bottom_labels = 2131296471;
+			// aapt resource value: 0x7f0900d9
+			public const int bottom_labels = 2131296473;
 			
 			// aapt resource value: 0x7f090063
 			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int cancel_action = 2131296455;
+			// aapt resource value: 0x7f0900c9
+			public const int cancel_action = 2131296457;
 			
 			// aapt resource value: 0x7f090045
 			public const int center = 2131296325;
@@ -4843,11 +3225,14 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090094
 			public const int chartBehaviorLayout = 2131296404;
 			
+			// aapt resource value: 0x7f090098
+			public const int chartLegendScrollView = 2131296408;
+			
 			// aapt resource value: 0x7f090073
 			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int chronometer = 2131296463;
+			// aapt resource value: 0x7f0900d1
+			public const int chronometer = 2131296465;
 			
 			// aapt resource value: 0x7f09004e
 			public const int clip_horizontal = 2131296334;
@@ -4858,17 +3243,17 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090039
 			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f09009d
-			public const int container = 2131296413;
+			// aapt resource value: 0x7f09009f
+			public const int container = 2131296415;
 			
-			// aapt resource value: 0x7f0900d8
-			public const int content = 2131296472;
+			// aapt resource value: 0x7f0900da
+			public const int content = 2131296474;
 			
 			// aapt resource value: 0x7f090066
 			public const int contentPanel = 2131296358;
 			
-			// aapt resource value: 0x7f09009e
-			public const int coordinator = 2131296414;
+			// aapt resource value: 0x7f0900a0
+			public const int coordinator = 2131296416;
 			
 			// aapt resource value: 0x7f09006d
 			public const int custom = 2131296365;
@@ -4885,20 +3270,20 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090060
 			public const int default_activity_button = 2131296352;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int design_bottom_sheet = 2131296416;
+			// aapt resource value: 0x7f0900a2
+			public const int design_bottom_sheet = 2131296418;
+			
+			// aapt resource value: 0x7f0900a9
+			public const int design_menu_item_action_area = 2131296425;
+			
+			// aapt resource value: 0x7f0900a8
+			public const int design_menu_item_action_area_stub = 2131296424;
 			
 			// aapt resource value: 0x7f0900a7
-			public const int design_menu_item_action_area = 2131296423;
+			public const int design_menu_item_text = 2131296423;
 			
 			// aapt resource value: 0x7f0900a6
-			public const int design_menu_item_action_area_stub = 2131296422;
-			
-			// aapt resource value: 0x7f0900a5
-			public const int design_menu_item_text = 2131296421;
-			
-			// aapt resource value: 0x7f0900a4
-			public const int design_navigation_view = 2131296420;
+			public const int design_navigation_view = 2131296422;
 			
 			// aapt resource value: 0x7f090020
 			public const int disableHome = 2131296288;
@@ -4909,8 +3294,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090030
 			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int end_padder = 2131296469;
+			// aapt resource value: 0x7f0900d7
+			public const int end_padder = 2131296471;
 			
 			// aapt resource value: 0x7f09003f
 			public const int enterAlways = 2131296319;
@@ -4948,8 +3333,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09008d
 			public const int gridLineLayout = 2131296397;
 			
-			// aapt resource value: 0x7f0900d9
-			public const int gridLinesLayout = 2131296473;
+			// aapt resource value: 0x7f0900db
+			public const int gridLinesLayout = 2131296475;
 			
 			// aapt resource value: 0x7f090005
 			public const int home = 2131296261;
@@ -4960,11 +3345,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090062
 			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f090099
-			public const int iconView = 2131296409;
+			// aapt resource value: 0x7f09009b
+			public const int iconView = 2131296411;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int icon_group = 2131296468;
+			// aapt resource value: 0x7f0900d6
+			public const int icon_group = 2131296470;
 			
 			// aapt resource value: 0x7f09003a
 			public const int ifRoom = 2131296314;
@@ -4972,8 +3357,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09005f
 			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int info = 2131296464;
+			// aapt resource value: 0x7f0900d2
+			public const int info = 2131296466;
 			
 			// aapt resource value: 0x7f090059
 			public const int italic = 2131296345;
@@ -4981,29 +3366,29 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090000
 			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f09009a
-			public const int label = 2131296410;
-			
 			// aapt resource value: 0x7f09009c
-			public const int largeLabel = 2131296412;
+			public const int label = 2131296412;
+			
+			// aapt resource value: 0x7f09009e
+			public const int largeLabel = 2131296414;
 			
 			// aapt resource value: 0x7f090049
 			public const int left = 2131296329;
 			
-			// aapt resource value: 0x7f090096
-			public const int legendHeader = 2131296406;
+			// aapt resource value: 0x7f090097
+			public const int legendHeader = 2131296407;
 			
-			// aapt resource value: 0x7f090098
-			public const int legendItemsLayout = 2131296408;
+			// aapt resource value: 0x7f09009a
+			public const int legendItemsLayout = 2131296410;
 			
 			// aapt resource value: 0x7f090093
 			public const int legendLayout = 2131296403;
 			
-			// aapt resource value: 0x7f090097
-			public const int legendScrollView = 2131296407;
+			// aapt resource value: 0x7f090099
+			public const int legendScrollView = 2131296409;
 			
-			// aapt resource value: 0x7f090095
-			public const int legendViewGroup = 2131296405;
+			// aapt resource value: 0x7f090096
+			public const int legendViewGroup = 2131296406;
 			
 			// aapt resource value: 0x7f090017
 			public const int line1 = 2131296279;
@@ -5017,14 +3402,14 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090061
 			public const int list_item = 2131296353;
 			
+			// aapt resource value: 0x7f0900e1
+			public const int masked = 2131296481;
+			
+			// aapt resource value: 0x7f0900cb
+			public const int media_actions = 2131296459;
+			
 			// aapt resource value: 0x7f0900df
-			public const int masked = 2131296479;
-			
-			// aapt resource value: 0x7f0900c9
-			public const int media_actions = 2131296457;
-			
-			// aapt resource value: 0x7f0900dd
-			public const int message = 2131296477;
+			public const int message = 2131296479;
 			
 			// aapt resource value: 0x7f090031
 			public const int middle = 2131296305;
@@ -5032,86 +3417,86 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090053
 			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int mr_art = 2131296437;
-			
-			// aapt resource value: 0x7f0900aa
-			public const int mr_chooser_list = 2131296426;
-			
-			// aapt resource value: 0x7f0900ad
-			public const int mr_chooser_route_desc = 2131296429;
-			
-			// aapt resource value: 0x7f0900ab
-			public const int mr_chooser_route_icon = 2131296427;
+			// aapt resource value: 0x7f0900b7
+			public const int mr_art = 2131296439;
 			
 			// aapt resource value: 0x7f0900ac
-			public const int mr_chooser_route_name = 2131296428;
-			
-			// aapt resource value: 0x7f0900a9
-			public const int mr_chooser_title = 2131296425;
-			
-			// aapt resource value: 0x7f0900b2
-			public const int mr_close = 2131296434;
-			
-			// aapt resource value: 0x7f0900b8
-			public const int mr_control_divider = 2131296440;
-			
-			// aapt resource value: 0x7f0900be
-			public const int mr_control_playback_ctrl = 2131296446;
-			
-			// aapt resource value: 0x7f0900c1
-			public const int mr_control_subtitle = 2131296449;
-			
-			// aapt resource value: 0x7f0900c0
-			public const int mr_control_title = 2131296448;
-			
-			// aapt resource value: 0x7f0900bf
-			public const int mr_control_title_container = 2131296447;
-			
-			// aapt resource value: 0x7f0900b3
-			public const int mr_custom_control = 2131296435;
-			
-			// aapt resource value: 0x7f0900b4
-			public const int mr_default_control = 2131296436;
+			public const int mr_chooser_list = 2131296428;
 			
 			// aapt resource value: 0x7f0900af
-			public const int mr_dialog_area = 2131296431;
+			public const int mr_chooser_route_desc = 2131296431;
+			
+			// aapt resource value: 0x7f0900ad
+			public const int mr_chooser_route_icon = 2131296429;
 			
 			// aapt resource value: 0x7f0900ae
-			public const int mr_expandable_area = 2131296430;
+			public const int mr_chooser_route_name = 2131296430;
 			
-			// aapt resource value: 0x7f0900c2
-			public const int mr_group_expand_collapse = 2131296450;
+			// aapt resource value: 0x7f0900ab
+			public const int mr_chooser_title = 2131296427;
 			
-			// aapt resource value: 0x7f0900b6
-			public const int mr_media_main_control = 2131296438;
-			
-			// aapt resource value: 0x7f0900b1
-			public const int mr_name = 2131296433;
-			
-			// aapt resource value: 0x7f0900b7
-			public const int mr_playback_control = 2131296439;
-			
-			// aapt resource value: 0x7f0900b0
-			public const int mr_title_bar = 2131296432;
-			
-			// aapt resource value: 0x7f0900b9
-			public const int mr_volume_control = 2131296441;
+			// aapt resource value: 0x7f0900b4
+			public const int mr_close = 2131296436;
 			
 			// aapt resource value: 0x7f0900ba
-			public const int mr_volume_group_list = 2131296442;
+			public const int mr_control_divider = 2131296442;
+			
+			// aapt resource value: 0x7f0900c0
+			public const int mr_control_playback_ctrl = 2131296448;
+			
+			// aapt resource value: 0x7f0900c3
+			public const int mr_control_subtitle = 2131296451;
+			
+			// aapt resource value: 0x7f0900c2
+			public const int mr_control_title = 2131296450;
+			
+			// aapt resource value: 0x7f0900c1
+			public const int mr_control_title_container = 2131296449;
+			
+			// aapt resource value: 0x7f0900b5
+			public const int mr_custom_control = 2131296437;
+			
+			// aapt resource value: 0x7f0900b6
+			public const int mr_default_control = 2131296438;
+			
+			// aapt resource value: 0x7f0900b1
+			public const int mr_dialog_area = 2131296433;
+			
+			// aapt resource value: 0x7f0900b0
+			public const int mr_expandable_area = 2131296432;
+			
+			// aapt resource value: 0x7f0900c4
+			public const int mr_group_expand_collapse = 2131296452;
+			
+			// aapt resource value: 0x7f0900b8
+			public const int mr_media_main_control = 2131296440;
+			
+			// aapt resource value: 0x7f0900b3
+			public const int mr_name = 2131296435;
+			
+			// aapt resource value: 0x7f0900b9
+			public const int mr_playback_control = 2131296441;
+			
+			// aapt resource value: 0x7f0900b2
+			public const int mr_title_bar = 2131296434;
+			
+			// aapt resource value: 0x7f0900bb
+			public const int mr_volume_control = 2131296443;
 			
 			// aapt resource value: 0x7f0900bc
-			public const int mr_volume_item_icon = 2131296444;
+			public const int mr_volume_group_list = 2131296444;
 			
-			// aapt resource value: 0x7f0900bd
-			public const int mr_volume_slider = 2131296445;
+			// aapt resource value: 0x7f0900be
+			public const int mr_volume_item_icon = 2131296446;
+			
+			// aapt resource value: 0x7f0900bf
+			public const int mr_volume_slider = 2131296447;
 			
 			// aapt resource value: 0x7f090028
 			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int navigation_header_container = 2131296419;
+			// aapt resource value: 0x7f0900a5
+			public const int navigation_header_container = 2131296421;
 			
 			// aapt resource value: 0x7f09003b
 			public const int never = 2131296315;
@@ -5122,14 +3507,14 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09001e
 			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int notification_background = 2131296466;
+			// aapt resource value: 0x7f0900d4
+			public const int notification_background = 2131296468;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int notification_main_column = 2131296460;
+			// aapt resource value: 0x7f0900ce
+			public const int notification_main_column = 2131296462;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int notification_main_column_container = 2131296459;
+			// aapt resource value: 0x7f0900cd
+			public const int notification_main_column_container = 2131296461;
 			
 			// aapt resource value: 0x7f09004c
 			public const int parallax = 2131296332;
@@ -5155,11 +3540,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09004a
 			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int right_icon = 2131296465;
+			// aapt resource value: 0x7f0900d3
+			public const int right_icon = 2131296467;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int right_side = 2131296461;
+			// aapt resource value: 0x7f0900cf
+			public const int right_side = 2131296463;
 			
 			// aapt resource value: 0x7f09008b
 			public const int rootLayout = 2131296395;
@@ -5239,17 +3624,17 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090025
 			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0900db
-			public const int sliding_tabs = 2131296475;
+			// aapt resource value: 0x7f0900dd
+			public const int sliding_tabs = 2131296477;
 			
-			// aapt resource value: 0x7f09009b
-			public const int smallLabel = 2131296411;
+			// aapt resource value: 0x7f09009d
+			public const int smallLabel = 2131296413;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int snackbar_action = 2131296418;
+			// aapt resource value: 0x7f0900a4
+			public const int snackbar_action = 2131296420;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int snackbar_text = 2131296417;
+			// aapt resource value: 0x7f0900a3
+			public const int snackbar_text = 2131296419;
 			
 			// aapt resource value: 0x7f090043
 			public const int snap = 2131296323;
@@ -5272,8 +3657,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09004b
 			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int status_bar_latest_event_content = 2131296456;
+			// aapt resource value: 0x7f0900ca
+			public const int status_bar_latest_event_content = 2131296458;
 			
 			// aapt resource value: 0x7f09008e
 			public const int stripLinesLayout = 2131296398;
@@ -5305,8 +3690,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090069
 			public const int textSpacerNoTitle = 2131296361;
 			
-			// aapt resource value: 0x7f0900a8
-			public const int text_input_password_toggle = 2131296424;
+			// aapt resource value: 0x7f0900aa
+			public const int text_input_password_toggle = 2131296426;
 			
 			// aapt resource value: 0x7f090014
 			public const int textinput_counter = 2131296276;
@@ -5314,11 +3699,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090015
 			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0900da
-			public const int thumbLayout = 2131296474;
+			// aapt resource value: 0x7f0900dc
+			public const int thumbLayout = 2131296476;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int time = 2131296462;
+			// aapt resource value: 0x7f0900d0
+			public const int time = 2131296464;
 			
 			// aapt resource value: 0x7f09001c
 			public const int title = 2131296284;
@@ -5332,8 +3717,8 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09006f
 			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0900dc
-			public const int toolbar = 2131296476;
+			// aapt resource value: 0x7f0900de
+			public const int toolbar = 2131296478;
 			
 			// aapt resource value: 0x7f09003e
 			public const int top = 2131296318;
@@ -5341,11 +3726,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f09006e
 			public const int topPanel = 2131296366;
 			
-			// aapt resource value: 0x7f0900d6
-			public const int top_labels = 2131296470;
+			// aapt resource value: 0x7f0900d8
+			public const int top_labels = 2131296472;
 			
-			// aapt resource value: 0x7f09009f
-			public const int touch_outside = 2131296415;
+			// aapt resource value: 0x7f0900a1
+			public const int touch_outside = 2131296417;
 			
 			// aapt resource value: 0x7f09000f
 			public const int transition_current_scene = 2131296271;
@@ -5374,11 +3759,11 @@ namespace MyWeatherApp.Droid
 			// aapt resource value: 0x7f090016
 			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0900de
-			public const int visible = 2131296478;
+			// aapt resource value: 0x7f0900e0
+			public const int visible = 2131296480;
 			
-			// aapt resource value: 0x7f0900bb
-			public const int volume_item_container = 2131296443;
+			// aapt resource value: 0x7f0900bd
+			public const int volume_item_container = 2131296445;
 			
 			// aapt resource value: 0x7f09003c
 			public const int withText = 2131296316;
